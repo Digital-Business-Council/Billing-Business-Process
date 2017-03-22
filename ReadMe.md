@@ -9,3 +9,12 @@ This includes:
 	+ Credit Note
 	+ Adjustment Invoice
 	+ Recipient Created Tax Invoice (RCTI)
+	
++ Application Response
+	
+The following documents may be included in a future release of the Billing Business Process:
+
++ Reminder for Payment
++ Statement of Account
++ Payment Trigger
++ Remittance Advice
