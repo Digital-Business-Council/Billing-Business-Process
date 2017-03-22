@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.1.4:1", "", "UBL-SignatureBasicComponents-2.1", "EARoot/EA1/EA4/EA1043.htm", "175.png", "7", "0", "", "Logical diagram0","{6F2CC79A-7D6F-4d3f-AF8D-9F0527F644B2}");
+tocTab[tocTab.length] = new Array("0.1.4:2", "", "ReferencedSignatureID", "EARoot/EA1/EA4/EA1046.htm", "5.png", "E1023", "0", "", "Class0","{C45FFC15-95ED-4da4-89AE-D4EB413E6D64}");

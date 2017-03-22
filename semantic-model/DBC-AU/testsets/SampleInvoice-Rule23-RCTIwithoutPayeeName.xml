@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Sample XML file with examples of possible values for a NON conformant eInvoice. Rule 23 - An RCTI must have Payee Name-->
+<n2:Invoice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:n1="http://www.altova.com/samplexml/other-namespace" xmlns:n2="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xsi:schemaLocation="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2 CoreInvoice-1.0.xsd">
+	<cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+	<cbc:CustomizationID schemeAgencyID="dbc">urn:resources.digitalbusinesscouncil.com.au:dbc:invoicing:documents:core invoice:xsd::core invoice 1##urn:resources.digitalbusinesscouncil.com.au:dbc:einvoicing:process:einvoicing02:ver1.0</cbc:CustomizationID>
+	<cbc:ProfileID schemeAgencyID="dbc">urn:resources.digitalbusinesscouncil.com.au:dbc:einvoicing:ver1.0</cbc:ProfileID>
+	<cbc:ID>TOSL-108-A</cbc:ID>
+	<cbc:IssueDate>2016-07-01</cbc:IssueDate>
+	<cbc:DueDate>2016-08-01</cbc:DueDate>
+	<cbc:InvoiceTypeCode listName="Document Type Code" listAgencyID="6">389</cbc:InvoiceTypeCode>
+	<cbc:Note>Recipient Created Tax Invoice</cbc:Note>
+	<cbc:DocumentCurrencyCode listID="ISO 4217 Alpha" listAgencyID="6">AUD</cbc:DocumentCurrencyCode>
+	<cbc:BuyerReference>CC-3352626</cbc:BuyerReference>
+	<cac:OrderReference>
+		<cbc:ID>SB002</cbc:ID>
+	</cac:OrderReference>
+	<cac:AccountingSupplierParty>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID schemeID="urn:oasis:names:tc:ebcore:partyid-type:iso6523:088" schemeAgencyID="GS1">4035811611014</cbc:ID>
+			</cac:PartyIdentification>
+			<cac:PostalAddress>
+				<cbc:CityName>Adelaide</cbc:CityName>
+				<cbc:PostalZone>5000</cbc:PostalZone>
+				<cbc:CountrySubentity>South Australia</cbc:CountrySubentity>
+				<cac:AddressLine> 
+					<cbc:Line>88 Grenfell St</cbc:Line>
+				</cac:AddressLine>
+				<cac:Country>
+					<cbc:IdentificationCode listName="Country Identification Code" listAgencyID="5">AU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:PostalAddress>
+			<cac:PartyLegalEntity>
+				<cbc:CompanyID schemeID="urn:oasis:names:tc:ebcore:partyid-type:iso6523:0151">987654321</cbc:CompanyID>
+			</cac:PartyLegalEntity>
+		</cac:Party>
+	</cac:AccountingSupplierParty>
+	<cac:AccountingCustomerParty>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID schemeID="urn:oasis:names:tc:ebcore:partyid-type:iso6523:0151">51083392303</cbc:ID>
+			</cac:PartyIdentification>
+			<cac:PartyName>
+				<cbc:Name>Governmment Agency</cbc:Name>
+			</cac:PartyName>
+			<cac:PostalAddress>
+				<cbc:CityName>Willunga</cbc:CityName>
+				<cbc:PostalZone>5172</cbc:PostalZone>
+				<cbc:CountrySubentity>South Australia</cbc:CountrySubentity>
+				<cac:AddressLine>
+					<cbc:Line>Delabole Road</cbc:Line>
+				</cac:AddressLine>
+				<cac:Country>
+					<cbc:IdentificationCode listName="Country Identification Code" listAgencyID="5">AU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:PostalAddress>
+			<cac:PartyLegalEntity>
+				<cbc:CompanyID schemeID="urn:oasis:names:tc:ebcore:partyid-type:iso6523:0151">51083392303</cbc:CompanyID>
+			</cac:PartyLegalEntity>
+		</cac:Party>
+		<cac:BuyerContact>
+			<cbc:ID>Tony Curtis</cbc:ID>
+			<cbc:Telephone>(08) 8556 2345</cbc:Telephone>
+			<cbc:ElectronicMail>curtis@willunga.gov.au</cbc:ElectronicMail>
+		</cac:BuyerContact>
+	</cac:AccountingCustomerParty>
+	<cac:Delivery>
+		<cbc:ActualDeliveryDate>2016-03-02</cbc:ActualDeliveryDate>
+		<cac:DeliveryAddress>
+			<cbc:CityName>Adelaide</cbc:CityName>
+			<cbc:PostalZone>5000</cbc:PostalZone>
+			<cbc:CountrySubentity>South Australia</cbc:CountrySubentity>
+			<cac:AddressLine>
+				<cbc:Line>202 North Terrace</cbc:Line>
+			</cac:AddressLine>
+			<cac:Country>
+				<cbc:IdentificationCode listName="Country Identification Code" listAgencyID="5">AU</cbc:IdentificationCode>
+			</cac:Country>
+		</cac:DeliveryAddress>
+	</cac:Delivery>
+	<cac:PaymentMeans>
+		<cbc:ID>EFT</cbc:ID>
+		<cbc:PaymentMeansCode listID="UN/ECE 4461">2</cbc:PaymentMeansCode>
+		<cbc:InstructionID>888276612262653</cbc:InstructionID>
+		<cac:PayeeFinancialAccount>
+			<cbc:ID>2000987211</cbc:ID>
+			<cac:FinancialInstitutionBranch>
+				<cbc:ID schemeName="BSB">086016</cbc:ID>
+				<cbc:Name>NAB Adelaide</cbc:Name>
+			</cac:FinancialInstitutionBranch>
+		</cac:PayeeFinancialAccount>
+	</cac:PaymentMeans>
+	<cac:TaxTotal>
+		<cbc:TaxAmount currencyID="AUD">250.00</cbc:TaxAmount>
+	</cac:TaxTotal>
+	<cac:LegalMonetaryTotal>
+		<cbc:LineExtensionAmount currencyID="AUD">2500.00</cbc:LineExtensionAmount>
+		<cbc:TaxExclusiveAmount currencyID="AUD">2500.00</cbc:TaxExclusiveAmount>
+		<cbc:TaxInclusiveAmount currencyID="AUD">2750.00</cbc:TaxInclusiveAmount>
+		<cbc:PayableAmount currencyID="AUD">2750.00</cbc:PayableAmount>
+	</cac:LegalMonetaryTotal>
+	<cac:InvoiceLine>
+		<cbc:ID>1</cbc:ID>
+		<cbc:Note>A variety of Widgets</cbc:Note>
+		<cbc:InvoicedQuantity>200</cbc:InvoicedQuantity>
+		<cbc:LineExtensionAmount currencyID="AUD">2000.00</cbc:LineExtensionAmount>
+		<cac:TaxTotal>
+			<cbc:TaxAmount currencyID="AUD">200.00</cbc:TaxAmount>
+			<cac:TaxSubtotal>
+				<cbc:TaxAmount currencyID="AUD">10.00</cbc:TaxAmount>
+				<cac:TaxCategory>
+					<cac:TaxScheme><cbc:ID>GST</cbc:ID></cac:TaxScheme>
+				</cac:TaxCategory>
+			</cac:TaxSubtotal>
+		</cac:TaxTotal>
+		<cac:Item>
+			<cbc:Description>Widget</cbc:Description>
+			<cac:SellersItemIdentification>
+				<cbc:ID>WDGT-A1733-0436</cbc:ID>
+			</cac:SellersItemIdentification>
+			<cac:StandardItemIdentification>
+				<cbc:ID schemeID="GTIN" schemeAgencyID="GS1">9501101021037</cbc:ID>
+			</cac:StandardItemIdentification>
+		</cac:Item>
+		<cac:Price>
+			<cbc:PriceAmount currencyID="AUD">10.00</cbc:PriceAmount>
+			<cbc:BaseQuantity>1</cbc:BaseQuantity>
+		</cac:Price>
+	</cac:InvoiceLine>
+	<cac:InvoiceLine>
+		<cbc:ID>2</cbc:ID>
+		<cbc:Note>Widget attachments</cbc:Note>
+		<cbc:InvoicedQuantity>200</cbc:InvoicedQuantity>
+		<cbc:LineExtensionAmount currencyID="AUD">500.00</cbc:LineExtensionAmount>
+		<cac:TaxTotal>
+			<cbc:TaxAmount currencyID="AUD">50.00</cbc:TaxAmount>
+			<cac:TaxSubtotal>
+				<cbc:TaxAmount currencyID="AUD">10.00</cbc:TaxAmount>
+				<cac:TaxCategory>
+					<cac:TaxScheme><cbc:ID>GST</cbc:ID></cac:TaxScheme>
+				</cac:TaxCategory>
+			</cac:TaxSubtotal>
+		</cac:TaxTotal>
+		<cac:Item>
+			<cbc:Description>Widget screws</cbc:Description>
+			<cac:SellersItemIdentification>
+				<cbc:ID>WDGT-A1733-0437</cbc:ID>
+			</cac:SellersItemIdentification>
+			<cac:StandardItemIdentification>
+				<cbc:ID schemeID="GTIN" schemeAgencyID="GS1">9501101021038</cbc:ID>
+			</cac:StandardItemIdentification>
+		</cac:Item>
+		<cac:Price>
+			<cbc:PriceAmount currencyID="AUD">2.50</cbc:PriceAmount>
+			<cbc:BaseQuantity>1</cbc:BaseQuantity>
+		</cac:Price>
+	</cac:InvoiceLine>
+</n2:Invoice>

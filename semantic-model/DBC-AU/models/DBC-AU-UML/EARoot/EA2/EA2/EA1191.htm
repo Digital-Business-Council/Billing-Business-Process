@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>DBC-eInvoice</title>
+<link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA1192.png" usemap="#EA1192" border="0" />
+
+<MAP NAME="EA1192">
+<area shape="rect" coords="56,71,146,141" href="../../EA1/EA8/EA1144.htm" target="_self">
+<area shape="rect" coords="256,641,346,711" href="../../EA1/EA8/EA1173.htm" target="_self">
+<area shape="rect" coords="256,481,346,551" href="../../EA1/EA8/EA1152.htm" target="_self">
+<area shape="rect" coords="356,761,446,831" href="../../EA1/EA8/EA1126.htm" target="_self">
+<area shape="rect" coords="166,741,256,811" href="../../EA1/EA8/EA1170.htm" target="_self">
+<area shape="rect" coords="366,551,456,621" href="../../EA1/EA8/EA1093.htm" target="_self">
+<area shape="rect" coords="369,368,459,438" href="../../EA1/EA8/EA1148.htm" target="_self">
+<area shape="rect" coords="243,134,333,204" href="../../EA1/EA8/EA1168.htm" target="_self">
+<area shape="rect" coords="243,245,333,315" href="../../EA1/EA8/EA1099.htm" target="_self">
+<area shape="rect" coords="369,14,476,84" href="../../EA1/EA8/EA1113.htm" target="_self">
+<area shape="rect" coords="25,400,115,470" href="EA1227.htm" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">DBC-eInvoice : UBL BIELibrary diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">3/12/2016 12:00:00 AM</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">6/20/2016 1:41:21 PM</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">timmcgrath</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{F2AA7751-E9AB-42a9-B1C6-F36B84F74E1F}</td>
+		</tr>
+	</table>
+	
+</div>
+ 
+</body>
+</html>

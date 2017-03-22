@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+[
+<!ENTITY versionDisplay "1.0 Dev">
+<!ENTITY versionDirectory   "dbc-ci-1.0">
+<!ENTITY versionDate        "08 June 2016">
+]>
+<configuration xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!--
+    This is the configuration of the base schema fragments for UBL 2.1,
+    modified for DBC use for CCTS documentation and copyrights only.
+  -->
+ <ndr>
+  <name-abbreviations>
+    <abbreviation short="CV2">Card Verification Value</abbreviation>
+    <abbreviation short="ID">Identifier</abbreviation>
+    <abbreviation short="URI">Uniform Resource Identifier</abbreviation>
+    <abbreviation short="UNDG">United Nations Dangerous Goods</abbreviation>
+    <abbreviation short="UBL">Universal Business Language</abbreviation>
+    <abbreviation short="UUID">Universally Unique Identifier</abbreviation>
+    <abbreviation short="XPath">XML Path Language</abbreviation>
+  </name-abbreviations>
+  <den-abbreviations>
+    <abbreviation short="CV2">Card Verification Value</abbreviation>
+    <abbreviation short="URI">Uniform Resource Identifier</abbreviation>
+    <abbreviation short="UNDG">United Nations Dangerous Goods</abbreviation>
+    <abbreviation short="UBL">Universal Business Language</abbreviation>
+    <abbreviation short="UUID">Universally Unique Identifier</abbreviation>
+    <abbreviation short="XPath">XML Path Language</abbreviation>
+  </den-abbreviations>
+  <equivalences>
+    <equivalence>
+      <primary-noun>URI</primary-noun>
+      <representation-term>Identifier</representation-term>
+    </equivalence>
+    <equivalence>
+      <primary-noun>UUID</primary-noun>
+      <representation-term>Identifier</representation-term>
+    </equivalence>
+  </equivalences>
+  <expected-maindoc-BIEs>
+    <!-- the UBL items are not expected
+    <property-term type="BBIE" cardinality="0..1" order="1"
+                                  >UBL Version Identifier</property-term>
+    <property-term type="BBIE" cardinality="0..1" order="2"
+                                  >Customization Identifier</property-term>
+    <property-term type="BBIE" cardinality="0..1" order="3"
+                                  >Profile Identifier</property-term>
+    <property-term type="BBIE" cardinality="0..1" order="4"
+                                  >Profile Execution Identifier</property-term>
+    <property-term type="ASBIE" cardinality="0..n"
+                                  >Signature</property-term>
+    -->
+  </expected-maindoc-BIEs>
+  <types>
+    <type>Amount</type>
+    <type>Binary Object</type>
+    <type>Code</type>
+    <type>Date Time</type>
+    <type>Date</type>
+    <type>Graphic</type>t
+    <type>Identifier</type>
+    <type>Indicator</type>
+    <type>Measure</type>
+    <type>Name</type>
+    <type>Numeric</type>
+    <type>Percent</type>
+    <type>Picture</type>
+    <type>Quantity</type>
+    <type>Rate</type>
+    <type>Sound</type>
+    <type>Text</type>
+    <type>Time</type>
+    <type>Value</type>
+    <type>Video</type>
+  </types>
+ </ndr>
+ <schema version="2.1">
+  <comment>
+  Library:           DBC Core Invoice &versionDisplay;
+                     http://resources.digitalbusinesscouncil.com.au/dbc/einvoicing/doctype/core-invoice/xsd/current/&versionDirectory;/
+  Release Date:      &versionDate;
+  Module:            %f
+  Generated on:      %z
+  Copyright (c) DBC 2016. All Rights Reserved.
+</comment>
+    <copyright position="end">
+  Copyright DBC
+  
+  Portions copyright OASIS-Open 2016
+</copyright>
+  <type-documentation>
+    <dbc:Component xmlns:dbc="urn:X-DBC-AU">
+      <dbc:InformationElement>InformationElement</dbc:InformationElement>
+    </dbc:Component>
+    <ccts:Component xmlns:ccts="urn:un:unece:uncefact:documentation:2">
+       <ccts:ComponentType>ComponentType</ccts:ComponentType>
+       <ccts:DictionaryEntryName>DictionaryEntryName</ccts:DictionaryEntryName>
+       <ccts:Version>Version</ccts:Version>
+       <ccts:Definition>Definition</ccts:Definition>
+       <ccts:Cardinality>Cardinality</ccts:Cardinality>
+       <ccts:ObjectClassQualifier>ObjectClassQualifier</ccts:ObjectClassQualifier>
+       <ccts:ObjectClass>ObjectClass</ccts:ObjectClass>
+       <ccts:PropertyTermQualifier>PropertyTermQualifier</ccts:PropertyTermQualifier>
+       <ccts:PropertyTerm>PropertyTerm</ccts:PropertyTerm>
+       <ccts:AssociatedObjectClass>AssociatedObjectClass</ccts:AssociatedObjectClass>
+       <ccts:RepresentationTerm>RepresentationTerm</ccts:RepresentationTerm>
+       <ccts:DataTypeQualifier>DataTypeQualifier</ccts:DataTypeQualifier>
+       <ccts:DataType>DataType</ccts:DataType>
+       <ccts:AlternativeBusinessTerms>AlternativeBusinessTerms</ccts:AlternativeBusinessTerms>
+       <ccts:Examples>Examples</ccts:Examples>
+    </ccts:Component>
+  </type-documentation>
+  <dir name="cva">
+    <file type="CVA" name="CoreInvoice-1.0.cva"
+          skeleton-uri="../ubl/UBL-2.1-CVA-Skeleton.cva"/>
+  </dir>
+  <dir name="DBC-AU/xsd" runtime-name="DBC-AU/xsdrt">
+    <dir name="common">
+      <file type="CABIE" name="UBL-CommonAggregateComponents-2.1.xsd"
+            prefix="cac"
+namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"/>
+      <file type="CBBIE" name="UBL-CommonBasicComponents-2.1.xsd"
+            prefix="cbc"
+namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"/>
+      <file type="QDT" name="UBL-QualifiedDataTypes-2.1.xsd"
+            prefix="qdt"
+namespace="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2"/>
+      <file type="UDT" name="UBL-UnqualifiedDataTypes-2.1.xsd"
+            prefix="udt"
+namespace="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2"/>
+      <file type="EXT" name="UBL-CommonExtensionComponents-2.1.xsd"
+            prefix="ext"
+namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+        <elements>
+         <xsd:element ref="ext:UBLExtensions" minOccurs="0" maxOccurs="1">
+            <xsd:annotation>
+               <xsd:documentation>A container for all extensions present in the document.</xsd:documentation>
+            </xsd:annotation>
+         </xsd:element>
+        </elements>
+      </file>
+    </dir>
+        <dir name="maindoc">
+      <file type="DABIE" name="CoreInvoice-1.0.xsd"
+             namespace="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2">
+        <element-documentation>This element MUST be conveyed as the root element in any instance document based on this Schema expression</element-documentation>
+      </file>
+	  <file type="DABIE" name="Response-1.0.xsd"
+             namespace="urn:oasis:names:specification:ubl:schema:xsd:ApplicationResponse-2">
+        <element-documentation>This element MUST be conveyed as the root element in any instance document based on this Schema expression</element-documentation>
+      </file>
+    </dir>
+ </dir>
+ </schema>
+</configuration>

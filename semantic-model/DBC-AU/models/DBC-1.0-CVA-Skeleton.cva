@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cva:ContextValueAssociation
+xmlns:cva="http://docs.oasis-open.org/codelist/ns/ContextValueAssociation/1.0/"
+xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+xmlns:c="urn:X-Crane-gc2obdndr"
+xmlns:x="http://www.w3.org/1999/xhtml"
+name="DBC-AU-DataTypeQualifications-1.0"
+version="2016-06-20 20:30Z"
+id="urn:oasis:names:specification:ubl:cva:UBL-Qualified-Data-Types:2">
+   <Annotation>
+      <Description>
+         <x:p>
+        This describes all of the qualified supplementary components and 
+        business information entities for the Digital Business Council
+        of Australia customization of UBL 2.1.
+      </x:p>
+        <x:p>
+          This skeleton has been annotated with information regarding the
+          Naming and Design Rules qualified data type 
+        </x:p>
+      </Description>
+   </Annotation>
+   <Title>
+    DBC AU 1.0 qualified information items
+  </Title>
+  
+  <Include uri="../../os-UBL-2.1/cva/UBL-DefaultDTQ-2.1.cva">
+    <Annotation>
+      <Description>
+        This is a supplement to the UBL 2.1 code lists, where only
+        the Document Type qualification has been added without any
+        other changes.
+      </Description>
+    </Annotation>
+  </Include>
+   <ValueLists>
+      <Annotation>
+         <Description>
+            <x:p>
+          These list all of the genericode files of code lists used by
+          DBC-AU information items whose values are qualified by code lists.
+        </x:p>
+            <x:p>
+          The unique identifier <x:samp>xml:id=</x:samp> is used later in
+          this file when describing the context for each entity that has
+          a qualified value.
+        </x:p>
+            <x:p>
+          The URI value points to the genericode file associated with the 
+          identifier. The URI is hyperlinked in this report to a rendering
+          of the contents of the genericode file that follows the rendering
+          of the contexts.
+        </x:p>
+         </Description>
+      </Annotation>
+      <ValueList xml:id="DocumentType-DBC-AU-1.0" 
+                 uri="../codes/default/DocumentTypeCode-1.0.gc"></ValueList>
+   </ValueLists>
+   <InstanceMetadataSets>
+      <Annotation>
+         <Description>
+            <x:p>
+          A supplementary component is a piece of metadata describing a
+          property of the list of values in which a particular value is
+          found.  For example, each code list of currency values has a
+          version and when a currency value is specified in a UBL document
+          it may be important to specify which version of the currency 
+          code list that value is found.  By knowing the list from which a
+          value is found, the semantics representated by that value are
+          unambiguous.
+        </x:p>
+            <x:p>
+          These sets of supplementary components describe where instance-level
+          metadata is found that contains values of list-level metadata from
+          genericode files.  Each set is identified in a context using that
+          set's unique <x:samp>xml:id=</x:samp> attribute.
+        </x:p>
+            <x:p>
+          Each component pairs an XPath address of the supplementary component
+          (specified in <x:samp>address=</x:samp>) relative to the item with
+          the code list value in the UBL document, with the XPath address of
+          the corresponding list-level metadata item in the genericode file
+          (specified in <x:samp>identification=</x:samp>) relative to the
+          <x:samp>&lt;Identification&gt;</x:samp> element in the code list file.
+        </x:p>
+            <x:p>
+          All supplementary components in UBL are defined by the UN/CEFACT Core
+          Component Technical Specification (CCTS) Version 2.01 dated
+          15 November 2003
+          <x:a href="http://www.unece.org/cefact/ebxml/CCTS_V2-01_Final.pdf">
+                  <x:samp>http://www.unece.org/cefact/ebxml/CCTS_V2-01_Final.pdf</x:samp>.</x:a>
+          Table 8-2 "Approved Core Component Type Content
+          and Supplementary Components" lists the various supplementary
+          components available.  The UN/CEFACT 
+          UnqualifiedDataTypeSchemaModule-2.0.xsd schema fragment specifies
+          the names of the attributes for supplementary components.
+        </x:p>
+         </Description>
+      </Annotation>
+      <InstanceMetadataSet xml:id="cctsV2.01-amount">
+         <Annotation>
+            <Description>
+               <x:p>
+            The <x:samp>Amount. Type</x:samp> supplementary component.
+          </x:p>
+            </Description>
+         </Annotation>
+         <InstanceMetadata address="../@currencyCodeListVersionID"
+                           identification="Version"/>
+      </InstanceMetadataSet>
+      <InstanceMetadataSet xml:id="cctsV2.01-binary">
+         <Annotation>
+            <Description>
+               <x:p>
+            There are no supplementary components for the
+            <x:samp>Binary Object. Type</x:samp>.
+          </x:p>
+            </Description>
+         </Annotation>
+      </InstanceMetadataSet>
+      <InstanceMetadataSet xml:id="cctsV2.01-code">
+         <Annotation>
+            <Description>
+               <x:p>
+            The <x:samp>Code. Type</x:samp> supplementary components.
+          </x:p>
+            </Description>
+         </Annotation>
+         <InstanceMetadata address="@listName"
+                           identification="LongName[not(@Identifier='listID')]"/>
+         <InstanceMetadata address="@listID"
+                           identification="LongName[@Identifier='listID']"/>
+         <InstanceMetadata address="@listVersionID"
+                           identification="Version"/>
+         <InstanceMetadata address="@listSchemeURI"
+                           identification="CanonicalUri"/>
+         <InstanceMetadata address="@listURI"
+                           identification="LocationUri"/>
+         <InstanceMetadata address="@listAgencyName"
+                           identification="Agency/LongName"/>
+         <InstanceMetadata address="@listAgencyID"
+                           identification="Agency/Identifier"/>
+      </InstanceMetadataSet>
+      <InstanceMetadataSet xml:id="cctsV2.01-identifier">
+         <Annotation>
+            <Description>
+               <x:p>
+            The <x:samp>Identifier. Type</x:samp> supplementary components.
+          </x:p>
+            </Description>
+         </Annotation>
+         <InstanceMetadata address="@schemeName"
+                           identification="LongName[not(@Identifier='listID')]"/>
+         <InstanceMetadata address="@schemeID"
+                           identification="LongName[@Identifier='listID']"/>
+         <InstanceMetadata address="@schemeVersionID"
+                           identification="Version"/>
+         <InstanceMetadata address="@schemeURI"
+                           identification="CanonicalUri"/>
+         <InstanceMetadata address="@schemeDataURI"
+                           identification="LocationUri"/>
+         <InstanceMetadata address="@schemeAgencyName"
+                           identification="Agency/LongName"/>
+         <InstanceMetadata address="@schemeAgencyID"
+                           identification="Agency/Identifier"/>
+      </InstanceMetadataSet>
+      <InstanceMetadataSet xml:id="cctsV2.01-measure">
+         <Annotation>
+            <Description>
+               <x:p>
+            The <x:samp>Measure. Type</x:samp> supplementary component.
+          </x:p>
+            </Description>
+         </Annotation>
+         <InstanceMetadata address="../@unitCodeListVersionID"
+                           identification="Version"/>
+      </InstanceMetadataSet>
+      <InstanceMetadataSet xml:id="cctsV2.01-quantity">
+         <Annotation>
+            <Description>
+               <x:p>
+            The <x:samp>Quantity. Type</x:samp> supplementary components.
+          </x:p>
+            </Description>
+         </Annotation>
+         <InstanceMetadata address="../@unitCodeListID"
+                           identification="Version"/>
+         <InstanceMetadata address="../@unitCodeListAgencyName"
+                           identification="Agency/LongName"/>
+         <InstanceMetadata address="../@unitCodeListAgencyID"
+                           identification="Agency/Identifier"/>
+      </InstanceMetadataSet>
+   </InstanceMetadataSets>
+   <Contexts>
+      <Annotation>
+         <Description>
+            <x:p>
+          The DBC-AU contexts in which various items with a qualified value
+          are specified.  
+        </x:p>
+            <x:p>
+          The <x:samp>address=</x:samp> attribute is an XPath address that
+          satisfies all of the UBL items in the instance that are qualified
+          with the indicated value lists using the indicated associated set
+          of instance-level metadata items.
+        </x:p>
+            <x:p>
+          Each context identifies the collection of supplementary components 
+          (by its identifier) where instance-level metadata is found, then
+          all value lists (by their identifier) that apply to the item being
+          addressed.
+        </x:p>
+            <x:p>
+          The contexts are listed first for attribute items and then for
+          element items.
+        </x:p>
+         </Description>
+      </Annotation>
+     <!--DBC-AU contexts-->
+      <Context values="DocumentType-DBC-AU-1.0"
+               metadata="cctsV2.01-code"
+               address="">
+        <Annotation>
+          <AppInfo>
+            <c:DataType>Document Type_ Code. Type</c:DataType>
+          </AppInfo>
+        </Annotation>
+      </Context>
+   </Contexts>
+</cva:ContextValueAssociation>

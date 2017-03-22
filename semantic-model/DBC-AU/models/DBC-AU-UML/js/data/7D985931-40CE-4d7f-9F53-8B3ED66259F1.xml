@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.1.1.3:1", "", "UBL-XAdESv141-2.1", "EARoot/EA1/EA1/EA3/EA144.htm", "175.png", "3", "0", "", "Logical diagram0","{C4F1DA33-79B8-4a49-B518-7D74BEDB006F}");
+tocTab[tocTab.length] = new Array("0.1.1.3:2", "", "ArchiveTimeStampV2", "EARoot/EA1/EA1/EA3/EA147.htm", "5.png", "E138", "0", "", "Class0","{ED3FF374-65B3-410d-8C42-08751A6F6FCA}");
+tocTab[tocTab.length] = new Array("0.1.1.3:3", "", "TimeStampValidationData", "EARoot/EA1/EA1/EA3/EA148.htm", "5.png", "E136", "0", "", "Class0","{28285168-5FB1-4614-94D8-82477F8B8BC2}");
+tocTab[tocTab.length] = new Array("0.1.1.3:4", "", "ValidationDataType", "EARoot/EA1/EA1/EA3/EA149.htm", "5.png", "E137", "0", "", "Class0","{F21EBA1F-5584-4ab3-8D3F-C5A5A17C9C51}");

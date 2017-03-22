@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Library:           DBC Core Invoice 1.0 Dev
+                     http://resources.digitalbusinesscouncil.com.au/dbc/einvoicing/doctype/core-invoice/xsd/current/dbc-ci-1.0/
+  Release Date:      08 June 2016
+  Module:            DBC-AU/xsdrt/common/UBL-QualifiedDataTypes-2.1.xsd
+  Generated on:      2016-08-18 01:14z
+  Copyright (c) DBC 2016. All Rights Reserved.
+-->
+<xsd:schema xmlns="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2"
+            xmlns:udt="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2"
+            elementFormDefault="qualified"
+            attributeFormDefault="unqualified"
+            version="2.1">
+   <xsd:import namespace="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2"
+               schemaLocation="UBL-UnqualifiedDataTypes-2.1.xsd"/>
+   <xsd:complexType name="AllowanceChargeReasonCodeType">
+      <xsd:simpleContent>
+         <xsd:restriction base="udt:CodeType"/>
+      </xsd:simpleContent>
+   </xsd:complexType>
+   <xsd:complexType name="CountryIdentificationCodeType">
+      <xsd:simpleContent>
+         <xsd:restriction base="udt:CodeType"/>
+      </xsd:simpleContent>
+   </xsd:complexType>
+   <xsd:complexType name="CurrencyCodeType">
+      <xsd:simpleContent>
+         <xsd:restriction base="udt:CodeType"/>
+      </xsd:simpleContent>
+   </xsd:complexType>
+   <xsd:complexType name="DocumentTypeCodeType">
+      <xsd:simpleContent>
+         <xsd:restriction base="udt:CodeType"/>
+      </xsd:simpleContent>
+   </xsd:complexType>
+   <xsd:complexType name="PaymentMeansCodeType">
+      <xsd:simpleContent>
+         <xsd:restriction base="udt:CodeType"/>
+      </xsd:simpleContent>
+   </xsd:complexType>
+</xsd:schema>
+<!-- ===== Copyright Notice ===== --><!--
+  Copyright DBC
+  
+  Portions copyright OASIS-Open 2016
+-->

@@ -1,0 +1,10 @@
+tocTab[tocTab.length] = new Array("0.1.3:1", "", "UBL-CommonExtensionComponents-2.1", "EARoot/EA1/EA3/EA1031.htm", "175.png", "6", "0", "", "Logical diagram0","{A73E0F29-171E-4d27-9188-0DAD7D4EAAF5}");
+tocTab[tocTab.length] = new Array("0.1.3:2", "", "ExtensionAgencyID", "EARoot/EA1/EA3/EA1034.htm", "5.png", "E1021", "0", "", "Class0","{5418748E-2CB4-4677-950D-6F3636910A70}");
+tocTab[tocTab.length] = new Array("0.1.3:3", "", "ExtensionAgencyName", "EARoot/EA1/EA3/EA1035.htm", "5.png", "E1019", "0", "", "Class0","{93092A66-68E9-4e25-85BE-58152AC9F0B2}");
+tocTab[tocTab.length] = new Array("0.1.3:4", "", "ExtensionAgencyURI", "EARoot/EA1/EA3/EA1036.htm", "5.png", "E1014", "0", "", "Class0","{C597DDCA-23F8-40bf-AA1E-8224F7C585C9}");
+tocTab[tocTab.length] = new Array("0.1.3:5", "", "ExtensionReason", "EARoot/EA1/EA3/EA1037.htm", "5.png", "E1017", "0", "", "Class0","{E6075AFD-74B1-46af-B467-FD6F585245B6}");
+tocTab[tocTab.length] = new Array("0.1.3:6", "", "ExtensionReasonCode", "EARoot/EA1/EA3/EA1038.htm", "5.png", "E1015", "0", "", "Class0","{0377282F-D1DD-48d6-85CD-2D12FC314AAA}");
+tocTab[tocTab.length] = new Array("0.1.3:7", "", "ExtensionURI", "EARoot/EA1/EA3/EA1039.htm", "5.png", "E1022", "0", "", "Class0","{E0B07ADB-0021-4453-833C-842EC9012C2B}");
+tocTab[tocTab.length] = new Array("0.1.3:8", "", "ExtensionVersionID", "EARoot/EA1/EA3/EA1040.htm", "5.png", "E1016", "0", "", "Class0","{868139D0-8B83-40d6-9AB8-04CCCB0C60CA}");
+tocTab[tocTab.length] = new Array("0.1.3:9", "", "UBLExtension", "EARoot/EA1/EA3/EA1041.htm", "5.png", "E1018", "0", "", "Class0","{3EF68EC3-D590-45a1-A636-45C50DEB19C7}");
+tocTab[tocTab.length] = new Array("0.1.3:10", "", "UBLExtensions", "EARoot/EA1/EA3/EA1042.htm", "5.png", "E1020", "0", "", "Class0","{EA55FD43-FEEC-47fb-8A56-8FB460F0238D}");

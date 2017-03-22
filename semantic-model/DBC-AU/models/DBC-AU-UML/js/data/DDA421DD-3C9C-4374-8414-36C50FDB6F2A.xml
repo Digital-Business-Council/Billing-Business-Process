@@ -1,0 +1,11 @@
+tocTab[tocTab.length] = new Array("0.1.5:1", "", "CCTS_CCT_SchemaModule-2.1", "EARoot/EA1/EA5/EA1047.htm", "175.png", "8", "0", "", "Logical diagram0","{336EBB12-99CE-4520-866B-3CDF78CF9C68}");
+tocTab[tocTab.length] = new Array("0.1.5:2", "", "«CDT» AmountType", "EARoot/EA1/EA5/EA1050.htm", "5.png", "E1028", "0", "", "Class0","{1F01C884-9AED-4caa-BC7D-BDF6439EDB02}");
+tocTab[tocTab.length] = new Array("0.1.5:3", "", "«CDT» BinaryObjectType", "EARoot/EA1/EA5/EA1051.htm", "5.png", "E1033", "0", "", "Class0","{791476FD-EEDD-4808-B6B7-DDF2E615A66E}");
+tocTab[tocTab.length] = new Array("0.1.5:4", "", "«CDT» CodeType", "EARoot/EA1/EA5/EA1052.htm", "5.png", "E1026", "0", "", "Class0","{FAE674A9-EC1F-4f39-AC67-CD67994C1634}");
+tocTab[tocTab.length] = new Array("0.1.5:5", "", "«CDT» DateTimeType", "EARoot/EA1/EA5/EA1053.htm", "5.png", "E1032", "0", "", "Class0","{518C6F1F-D993-4efe-9A8D-BB779671E2F2}");
+tocTab[tocTab.length] = new Array("0.1.5:6", "", "«CDT» IdentifierType", "EARoot/EA1/EA5/EA1054.htm", "5.png", "E1025", "0", "", "Class0","{7B5E8895-6D3B-4f72-889B-7CA7AEDEE559}");
+tocTab[tocTab.length] = new Array("0.1.5:7", "", "«CDT» IndicatorType", "EARoot/EA1/EA5/EA1055.htm", "5.png", "E1024", "0", "", "Class0","{E7EA66D7-49FA-4dfd-85A3-38BBEA2D2B7A}");
+tocTab[tocTab.length] = new Array("0.1.5:8", "", "«CDT» MeasureType", "EARoot/EA1/EA5/EA1056.htm", "5.png", "E1031", "0", "", "Class0","{945E112B-44B5-40ed-81B8-E33595BE7FBA}");
+tocTab[tocTab.length] = new Array("0.1.5:9", "", "«CDT» NumericType", "EARoot/EA1/EA5/EA1057.htm", "5.png", "E1027", "0", "", "Class0","{CBDAE612-C1D2-440a-B678-68CF4B541CBF}");
+tocTab[tocTab.length] = new Array("0.1.5:10", "", "«CDT» QuantityType", "EARoot/EA1/EA5/EA1058.htm", "5.png", "E1029", "0", "", "Class0","{3963D8D2-FD63-4bde-AB33-B702A9ACAF26}");
+tocTab[tocTab.length] = new Array("0.1.5:11", "", "«CDT» TextType", "EARoot/EA1/EA5/EA1059.htm", "5.png", "E1030", "0", "", "Class0","{1F47825F-0BA3-4f23-9327-08A6F3A3960D}");

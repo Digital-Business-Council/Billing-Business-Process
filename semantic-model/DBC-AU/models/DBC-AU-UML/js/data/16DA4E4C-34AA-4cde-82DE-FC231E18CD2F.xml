@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.1.1.1", "1", "«XSDschema» UBL-xmldsig-core-schema-2.1", "EARoot/EA1/EA1/EA1/EA22.htm", "4.png", "", "", "{BAD1B253-D7AA-488f-BD26-CD5AFA0C5196}", "Package");
+tocTab[tocTab.length] = new Array("0.1.1.2", "1", "«XSDschema» UBL-XAdESv132-2.1", "EARoot/EA1/EA1/EA2/EA69.htm", "4.png", "", "", "{7C345BBB-534D-4654-8EDF-4AF45F19C97D}", "Package");
+tocTab[tocTab.length] = new Array("0.1.1.3", "1", "«XSDschema» UBL-XAdESv141-2.1", "EARoot/EA1/EA1/EA3/EA146.htm", "4.png", "", "", "{7D985931-40CE-4d7f-9F53-8B3ED66259F1}", "Package");
+tocTab[tocTab.length] = new Array("0.1.1.4", "1", "«XSDschema» UBL-ExtensionContentDataType-2.1", "EARoot/EA1/EA1/EA4/EA152.htm", "4.png", "", "", "{7AF8ACB8-5B40-41b7-9FC7-685EC93C67E4}", "Package");

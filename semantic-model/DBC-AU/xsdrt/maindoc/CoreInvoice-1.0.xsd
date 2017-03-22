@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Library:           DBC Core Invoice 1.0 Dev
+                     http://resources.digitalbusinesscouncil.com.au/dbc/einvoicing/doctype/core-invoice/xsd/current/dbc-ci-1.0/
+  Release Date:      08 June 2016
+  Module:            DBC-AU/xsdrt/maindoc/CoreInvoice-1.0.xsd
+  Generated on:      2016-08-18 01:14z
+  Copyright (c) DBC 2016. All Rights Reserved.
+-->
+<xsd:schema xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+            xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+            xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+            xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+            elementFormDefault="qualified"
+            attributeFormDefault="unqualified"
+            version="2.1">
+   <xsd:import namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+               schemaLocation="../common/UBL-CommonAggregateComponents-2.1.xsd"/>
+   <xsd:import namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+               schemaLocation="../common/UBL-CommonBasicComponents-2.1.xsd"/>
+   <xsd:import namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2"
+               schemaLocation="../common/UBL-CommonExtensionComponents-2.1.xsd"/>
+   <xsd:element name="Invoice" type="InvoiceType"/>
+   <xsd:complexType name="InvoiceType">
+      <xsd:sequence>
+         <xsd:element ref="ext:UBLExtensions" minOccurs="0" maxOccurs="1"/>
+         <xsd:element ref="cbc:UBLVersionID" minOccurs="0" maxOccurs="1"/>
+         <xsd:element ref="cbc:CustomizationID" minOccurs="0" maxOccurs="1"/>
+         <xsd:element ref="cbc:ProfileID" minOccurs="0" maxOccurs="1"/>
+         <xsd:element ref="cbc:ProfileExecutionID" minOccurs="0" maxOccurs="1"/>
+         <xsd:element ref="cbc:ID" minOccurs="1" maxOccurs="1"/>
+         <xsd:element ref="cbc:CopyIndicator" minOccurs="0" maxOccurs="1"/>
+         <xsd:element ref="cbc:IssueDate" minOccurs="1" maxOccurs="1"/>
+         <xsd:element ref="cbc:DueDate" minOccurs="0" maxOccurs="1"/>
+         <xsd:element ref="cbc:InvoiceTypeCode" minOccurs="1" maxOccurs="1"/>
+         <xsd:element ref="cbc:Note" minOccurs="0" maxOccurs="unbounded"/>
+         <xsd:element ref="cbc:DocumentCurrencyCode" minOccurs="0" maxOccurs="1"/>
+         <xsd:element ref="cbc:BuyerReference" minOccurs="0" maxOccurs="1"/>
+         <xsd:element ref="cac:InvoicePeriod" minOccurs="0" maxOccurs="unbounded"/>
+         <xsd:element ref="cac:OrderReference" minOccurs="0" maxOccurs="1"/>
+         <xsd:element ref="cac:DespatchDocumentReference"
+                      minOccurs="0"
+                      maxOccurs="unbounded"/>
+         <xsd:element ref="cac:ReceiptDocumentReference"
+                      minOccurs="0"
+                      maxOccurs="unbounded"/>
+         <xsd:element ref="cac:ContractDocumentReference"
+                      minOccurs="0"
+                      maxOccurs="unbounded"/>
+         <xsd:element ref="cac:AdditionalDocumentReference"
+                      minOccurs="0"
+                      maxOccurs="unbounded"/>
+         <xsd:element ref="cac:AccountingSupplierParty" minOccurs="1" maxOccurs="1"/>
+         <xsd:element ref="cac:AccountingCustomerParty" minOccurs="1" maxOccurs="1"/>
+         <xsd:element ref="cac:PayeeParty" minOccurs="0" maxOccurs="1"/>
+         <xsd:element ref="cac:Delivery" minOccurs="0" maxOccurs="unbounded"/>
+         <xsd:element ref="cac:PaymentMeans" minOccurs="0" maxOccurs="unbounded"/>
+         <xsd:element ref="cac:AllowanceCharge" minOccurs="0" maxOccurs="unbounded"/>
+         <xsd:element ref="cac:TaxTotal" minOccurs="0" maxOccurs="unbounded"/>
+         <xsd:element ref="cac:LegalMonetaryTotal" minOccurs="1" maxOccurs="1"/>
+         <xsd:element ref="cac:InvoiceLine" minOccurs="1" maxOccurs="unbounded"/>
+      </xsd:sequence>
+   </xsd:complexType>
+</xsd:schema>
+<!-- ===== Copyright Notice ===== --><!--
+  Copyright DBC
+  
+  Portions copyright OASIS-Open 2016
+-->
