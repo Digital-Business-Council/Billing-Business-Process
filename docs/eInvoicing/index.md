@@ -12,7 +12,7 @@ The intended audiences are:
 
 Audience Reading Guide | Section | BUSINESS ANALYSTS| APPLICATION DEVELOPERS
 ---|---|---|---
-Overview | 2 | ![orange_Logo](/images/orange.PNG)  | ![orange_Logo](/images/orange.PNG) 
+Overview | 2 | ![orange_Logo](/images/orange.PNG)  | ![orange_Logo](/images/orange.PNG ) 
 Conformance | 3 | ![orange_Logo](/images/orange.PNG)  | ![orange_Logo](/images/orange.PNG) 
 Distribution Pacakage | 4 | ![yellow_logo](/images/yellow.PNG)  | ![orange_Logo](/images/orange.PNG) 
 Terms and Definitions (Normative) | 5 | ![orange_Logo](/images/orange.PNG) | ![orange_Logo](/images/orange.PNG) 
