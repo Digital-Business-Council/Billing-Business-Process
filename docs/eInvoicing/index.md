@@ -1,5 +1,3 @@
-# General Information
-
 # 1 Audience
 The intended audiences are:
  
