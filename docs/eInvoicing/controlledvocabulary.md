@@ -4,7 +4,7 @@ Many terms used in defining the Information Elements in the eInvoicing Semantic 
 
 The terms listed in Table 2 are used as defined in the context of this Implementation Guide. 
 
-*Table 2: Controlled Vocabulary *
+*Table 2: Controlled Vocabulary*
 
 | | |  |
 | --- |---| ---- |
