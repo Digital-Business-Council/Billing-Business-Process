@@ -3,6 +3,7 @@
 Many terms used in defining the Information Elements in the eInvoicing Semantic Model and Implementation Guide refer to the following controlled vocabulary of terms. 
 
 The terms listed in Table 2 are used as defined in the context of this Implementation Guide. 
+
 *Table 2: Controlled Vocabulary *
 
 | | |  |
@@ -32,7 +33,35 @@ The terms listed in Table 2 are used as defined in the context of this Implement
 | Country of Origin | The Country where an Item originated. | |
 | Credit Note | A Document used to specify credits due to the Buyer from the Supplier. | |
 | Currency | A medium of exchanging funds. | | 
-
-
-
-
+| Date | A calendar Date. | |
+| Description | Text used to provide details. | *For example: ‘Widgets’, ‘Basic Rental’*|
+| Dispatch Advice | A Document used to describe the sending of a delivery of Items. | |
+| Electronic Address | An end point Identifier for delivering electronic Documents. | *For example: ‘http://receivernetwork/accesspoint/partnerXYZ’* |
+| End Date | The termination Date for a Period of time. | |
+| External Document | A separate Document not included with the Invoice but identified at another location for Reference or audit purposes. | *For example: ‘http://partnerX/DeliveryDocket.pdf’* |
+| Financial Institution | An organisation that provides financial Services for its clients or members. | *Generically known as a Bank.*|
+| Financial Institution Account | An account at a Financial Institution. | *Generally known as a Bank Account.* |
+| Financial Institution Identifier | The office holding the Financial Institution Account. | *In Australia this is generally known as the Bank-State-Branch (BSB).* |
+| Goods and Services Tax (GST) | The term used in Australia for consumption Tax as defined by ‘A New Tax System Act’ (1999) (Australian Government, 1999). | *Goods and Services Tax (GST) applies to Items sold or consumed in Australia.*|
+| Gross Price | The unit price before Allowances and Charges. | |
+| Tax Code | A Category within the Australian indirect Taxation system. | |
+| GST Status | The Tax status applicable to a Party within the GST system (Australian Government, 1999). | *For example, ‘Registered’ or ‘Not registered’* |
+| Invoice | A Document notifying an obligation to make a payment. | *Definition taken from ‘A New Tax System (Pay As You Go) Act 1999’ (Australian Government, 2013).*|
+| Invoice Currency | The system of monetary exchange used for the Invoice. | *For domestic Invoicing this will be Australian Dollars in the majority of cases, but it is possible to use other Currencies.*|
+| Invoice Level | Information that applies to the entire Invoice. | *Sometimes referred to as the Invoice header.*|
+| Invoice Line | Defines properties of an individual Invoiced Item. | *Typically used to specify individual transactions.* |
+| Invoice Line Extension Amount | The Net Unit Price multiplied by the Invoice Quantity. | |
+| Invoiced Quantity | The quantity of Items being Invoiced. | |
+| Issue Date | The Date on which the Invoice was created. | |
+| Item | An individual article or unit. | *May be goods or services.*|
+| Item Classification | The formal classifying of an Item by its type or nature. | *Classification Codes are used to allow grouping of similar Items for a various purposes e.g. public procurement (CPV), e-Commerce (UNSPSC), exports (AHECC) etc.* |
+| Item Property | Features of an Item. | *For example lengths, colours, sizes.* |
+| Item Specification | A formal set of Item attributes used to satisfy the conditions of sale. |
+| Net Amount | The Amount is ‘net’ without GST, i.e. inclusive of Allowances and Charges as well as other relevant Taxes. | |
+| Net Unit Price | The unit price of an item without GST, i.e. inclusive of Allowances and Charges as well as other relevant Taxes. | |
+| Party | An individual, a group, or an organisation having a role in a Business Process. | |
+| Payee | The Party that receives the payment. | |
+| Payer | The Party that makes the payment. | |
+| Payment Means | How a payment is expected to be or has been settled. | |
+| Period | A length or portion of time. | |
+|
