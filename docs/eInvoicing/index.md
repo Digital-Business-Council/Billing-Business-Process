@@ -1,6 +1,6 @@
 # General Information
 
-## 1. Audience
+# 1 Audience
 The intended audiences are:
  
 |![BusinessAnalyst-Logo](/images/Businessanalyst.PNG)  |   ![ApplicationDeveloper-Logo](/images/Applicationdeveloper.PNG)|
