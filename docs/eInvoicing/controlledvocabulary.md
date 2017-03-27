@@ -64,4 +64,31 @@ The terms listed in Table 2 are used as defined in the context of this Implement
 | Payer | The Party that makes the payment. | |
 | Payment Means | How a payment is expected to be or has been settled. | |
 | Period | A length or portion of time. | |
-|
+| Postal Address | Identifies the end point of a postal system. | |
+| Postcode | The Identifier for an addressable group of properties according to the Australian postal Service. | *Known as Postal Zone in some countries.* |
+| Price Base Quantity | The number of Item units to which a price applies. ||
+|Price Discount |The total discount subtracted from the Gross Price to calculate the Net Price. ||
+| Purchase Order | A Document used to order Items issued by the Buyer. ||
+| Receipt Advice | A Document used to describe the acceptance of delivery of Items. ||
+| Recipient Created Tax Invoice (RCTI) | A Tax Invoice issued by the Party that receives the goods and services, rather than the Supplier. ||
+| Reference | The action of mentioning or alluding to something. | |
+| Referenced Document | A Document referenced in the Invoice to substantiate the claims made. These may be exchanged as either Attached or External documents. ||
+|Related Invoice | A previously issued Invoice. ||
+| Response | A Document to acknowledge receipt of preceding Document. | *For example, acknowledging receipt of an Invoice or Credit Note.*|
+| Sales Order Identifier | An Identifier for a Buyer’s Purchase Order, issued by the Seller. | |
+| Start Date | The starting Date for a Period of time. ||
+| State | A Country sub-division or region. | *An Australian State or Territory.* |
+| Supplier | The Party responsible for providing goods or services to the Buyer. ||
+| Tax | A compulsory contribution to public revenue, levied by the government on workers' income and business profits, or added to the cost of some goods, Services and transactions. ||
+| Taxation Branch | A Branch of an Australian Business registered with the Australian Tax Office for Tax reporting purposes. ||
+| Tax Invoice | An Invoice may be a Tax Invoice under the meaning given by subsections 29-70(1) and 48-57(1) of the GST Act (Australian Government, 1999). | *See 7.1.1.* |
+| Tax Rate | The rate that applies for a Tax. | *For example, GST rate.*|
+| Taxable Amount | The Amount that is Taxable. | |
+|Telephone Number |Identifies the end point of a telephony system. ||
+|Total Amount |The sum of all Amounts. | |
+| Trading Name | The term previously used by the Australian Business Register (ABR) for Business Name. | *Taken from the Australian Securities and Investment Commission definitions (Australian Securities and Investment Commission, 2016).*|
+
+
+
+
+
