@@ -189,6 +189,24 @@ IdentifierType | A character string to identify and uniquely distinguish one ins
 IndicatorType | A list of two mutually exclusive Boolean Values that express the only possible states of a property. | | format|
 MeasureType | A numeric Value determined by measuring an object using a specified unit of measure. | unitCode | unitCodeListVersionID |
 NumericType | Numeric information that is assigned or is determined by calculation, counting, or sequencing. It does not require a unit of quantity or unit of measure. | | format|
+PercentType | Numeric information that is assigned or is determined by calculation, counting, or sequencing and is expressed as a percentage. It does not require a unit of quantity or unit of measure. | | format|
+RateType | A numeric expression of a rate that is assigned or is determined by calculation, counting, or sequencing. It does not require a unit of quantity or unit of measure. | | format|
+QuantityType | A counted number of non-monetary units, possibly including a fractional part. | | unitCode, unitCodeListID, unitCodeListAgencyID, unitCodeListAgencyName |
+TextType | A character string (i.e. a finite set of characters), generally in the form of words of a language. | | languageID, languageLocaleID |
+NameType | A character string that constitutes the distinctive designation of a person, place, thing, or concept. | | languageID, languageLocaleID |
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
