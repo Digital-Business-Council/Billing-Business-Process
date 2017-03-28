@@ -117,3 +117,28 @@ The Payment Means is the structure used to describe how payments are to be made.
 ### 8.3.6 Allowance and Charges Type 
 
 Both Allowances (e.g. discounts) and Charges (e.g. penalties) are described by a common structure with an indicator (ChangeIndicator) to say whether this is a Charge (true) or an Allowance (false). 
+
+![allowancecharge-structure_Logo](images/allowanceschargesstructure.PNG)
+
+![allowancechargeexample_Logo](images/allowancechargeeg.PNG)
+
+
+### 8.3.7 Monetary Total Type 
+
+The overall Amount to be paid for an eInvoice Document is described using a MonetaryTotal UBL Element. 
+
+![monetarytotaltype_Logo](images/monetarytotal.PNG)
+
+### 8.3.8 Tax Total Type 
+
+The overall Taxes involved are described using the Tax Total structure. 
+
+![taxtotalstructure](images/taxtotalstructure.PNG)
+
+![taxtotalexample](images/taxtotaleg.PNG)
+
+Multiple and mixed Tax Categories (for example, additional GST Categories) and their totals are supported. 
+
+
+### 8.3.9 Invoice Line Type 
+Charges for individual Items or transactions are often described as ‘lines’ on an Invoice. The Invoice Line structure describes the attributes of an individual Invoiced Item. 
