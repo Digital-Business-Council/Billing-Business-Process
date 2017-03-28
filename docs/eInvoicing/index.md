@@ -3,7 +3,7 @@
 # 1 Audience
 The intended audiences are:
  
-|![BusinessAnalyst-Logo](/images/Businessanalyst.PNG)  |   ![ApplicationDeveloper-Logo](/images/Applicationdeveloper.PNG)|
+|![BusinessAnalyst-Logo](images/Businessanalyst.PNG)  |   ![ApplicationDeveloper-Logo](images/Applicationdeveloper.PNG)|
 | ---| ---|
 |BUSINESS ANALYSTS |APPLICATION DEVELOPERS|
 |Business Analysts: | Application Developers: |
