@@ -169,3 +169,14 @@ Figure 23 (below) describes the structure of the Response document and Figure 24
 ![responsedocument](images/responsedocumentstructure.PNG)
 
 ![responseexample](images/responsedocumentexample.PNG)
+
+
+## 8.5 Data Types 
+
+All UBL XML Elements have an assigned Data Type taken from the UBL Unqualified Data Type set listed in Table 3 (OASIS UBL TC, 2013). Table 3 also indicates which XML Attributes must be used (mandatory) and which may be used (optional) with the UBL Elements of that Data Type. 
+
+*Table3: Data Types for UBL Elements*
+
+| | | | |
+| --- |------- |--- |------- |
+**Data Type** |**Definition**| **Mandatory Attributes** |**Optional Attributes**|
