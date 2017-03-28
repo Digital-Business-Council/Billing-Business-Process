@@ -29,9 +29,9 @@ After an eInvoice is created, it is sometimes necessary to adjust the informatio
 
 There is an error in the relevant Invoice, for example it is to the wrong Buyer, at the wrong time or the wrong amount was charged; 
 
-     • The Amount of the original Invoice no longer reflects the amount the Buyer owes, for example due to Items being returned or a dispute about Items provided; or 
+   • The Amount of the original Invoice no longer reflects the amount the Buyer owes, for example due to Items being returned or a dispute about Items provided; or 
      
-     • The supply becomes Taxable or stops being Taxable. 
+   • The supply becomes Taxable or stops being Taxable. 
 
 Two common processes for adjustment Invoicing are described below. 
 
