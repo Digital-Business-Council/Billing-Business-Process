@@ -142,3 +142,30 @@ Multiple and mixed Tax Categories (for example, additional GST Categories) and t
 
 ### 8.3.9 Invoice Line Type 
 Charges for individual Items or transactions are often described as ‘lines’ on an Invoice. The Invoice Line structure describes the attributes of an individual Invoiced Item. 
+
+![invoiceline](images/invoicelinestructure.PNG)
+
+![invoicelineeg](images/invoicelineexample.PNG)
+
+### 8.3.10 Item Type 
+
+The Item structure describes an Item of trade. It includes a generic Name and Description applicable to all examples of the Item together with various methods of uniquely identifying the Item. 
+
+![itemstructure](images/itemstructure.PNG)
+
+![itemexample](images/itemexample.PNG)
+
+Items can be identified and described by various (optional) Item Identification Schemes and Properties, and classified using various (optional) Item Classification schemes. 
+
+
+## 8.4 Response Document Schema 
+
+In an eInvoicing environment it is not uncommon for the recipient (either the Buyer or Supplier) to acknowledge the receipt of an eInvoice with a Response Document. This Response may also be used to specify the status of the transaction. 
+
+Using Responses is an opt-in system. Sending Response documents is at the discretion of the eInvoice recipient (typically the Buyer). Whether a Response Document is returned is based on the Invoice sender’s (typically the Supplier’s) registered capability to support that Service (see Section 10). 
+
+Figure 23 (below) describes the structure of the Response document and Figure 24 gives an example. 
+
+![responsedocument](images/responsedocumentstructure.PNG)
+
+![responseexample](images/responsedocumentexample.PNG)
