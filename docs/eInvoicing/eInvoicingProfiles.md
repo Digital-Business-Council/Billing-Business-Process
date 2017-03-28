@@ -37,11 +37,11 @@ The diagramming notation used has the following key:
 
 - Mandatory Element 
 
-![mandatory_Logo](/images/mandatory.PNG)
+![mandatory_Logo](images/mandatory.PNG)
 
 - Optional Element 
 
-![optional_Logo](/images/optional.PNG )
+![optional_Logo](images/optional.PNG )
 
 Examples of the use of these Elements are also provided. 
 
@@ -71,14 +71,14 @@ The Response Document type is described in Section 8.4.
 
 The Invoice Element is the top level (often referred to as the root element) of the Invoice. The overall structure is describes in Figure 4. 
 
-![invoicedocumenttype_Logo](/images/invoice-document-type.PNG)
+![invoicedocumenttype_Logo](images/invoice-document-type.PNG)
 
 
 ### 8.3.2 Document Reference Type 
 
 A Document Reference is a structure used to define a Reference to another Document. 
 
-![documentreference_Logo](/images/document-reference-type.PNG)
+![documentreference_Logo](images/document-reference-type.PNG)
 
 The structure supports both Documents embedded or included with the Invoice and those referred to at an external URI. 
 
@@ -89,9 +89,9 @@ Both Buyer and Supplier share the same Party structures.
 
 Within the Core Invoice Schema the Supplier (who claims the payment and is responsible for resolving billing issues and arranging settlement) is identified using the UBL Element AccountingSupplierParty. 
 
-![supplierpartystructure_Logo](/images/supplier-party-structure.PNG)
+![supplierpartystructure_Logo](images/supplier-party-structure.PNG)
 
-![supplierpartyexample_Logo](/images/supplier-part-eg.PNG)
+![supplierpartyexample_Logo](images/supplier-part-eg.PNG)
 
 
 ### 8.3.4 Buyer Party Type 
