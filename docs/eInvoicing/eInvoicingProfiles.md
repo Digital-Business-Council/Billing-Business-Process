@@ -97,3 +97,23 @@ Within the Core Invoice Schema the Supplier (who claims the payment and is respo
 ### 8.3.4 Buyer Party Type 
 
 AccountingCustomerParty is the UBL Element used for identifying the Buyer (the Party making settlement relating to a purchase and resolving billing issues). 
+
+![customerpartystructure_logo](images/customerpartystructure.PNG)
+
+*Figure 10: Example of a Customer Party*
+
+![customerpartyexample_Logo](images/customerpartyeg.PNG)
+
+
+### 8.3.5 Payment Means Type 
+
+The Payment Means is the structure used to describe how payments are to be made. 
+
+![paymentmeansstructure_Logo](images/paymentmeansstructure.PNG)
+
+![paymentmeansexample_Logo](images/paymentmeanseg.PNG)
+
+
+### 8.3.6 Allowance and Charges Type 
+
+Both Allowances (e.g. discounts) and Charges (e.g. penalties) are described by a common structure with an indicator (ChangeIndicator) to say whether this is a Charge (true) or an Allowance (false). 
