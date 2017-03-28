@@ -59,6 +59,6 @@ With an eInvoicing process it is not uncommon for the recipient (e.g. Buyer) to 
 
 Figure 3 describes the flow of a common eInvoicing process with an acknowledgement. 
 
-![BPaccknowledgeinvoiceprocess_logo](/images/BPaccknowledgeinvoiceprocess.PNG)
+![BPaccknowledgeinvoiceprocess_Logo](/images/BPaccknowledgeinvoiceprocess.PNG)
 
 Note: Responses may also be sent to acknowledge Recipient Created Tax Invoices and Credit Notes. 
