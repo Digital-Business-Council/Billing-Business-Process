@@ -180,3 +180,17 @@ All UBL XML Elements have an assigned Data Type taken from the UBL Unqualified D
 | | | | |
 | --- |------- |--- |------- |
 **Data Type** |**Definition**| **Mandatory Attributes** |**Optional Attributes**|
+AmountType | A number of monetary units specified using a given unit of Currency. |currencyID | currencyCodeListVersionID |
+BinaryObjectType | A set of finite-length sequences of binary octets. | mimeCode | Format, encodingCode, characterSetCode, uri, filename |
+CodeType | A character string (letters, figures, or symbols) that for brevity and/or language independence may be used to represent or replace a definitive Value or text of an attribute, together with relevant supplementary information. | | listID, listAgencyID, listAgencyName, listName, listVersionID, name, languageID, listURI, listSchemeURI |
+DateType | One calendar day according the Gregorian calendar. | xsd:date | |
+TimeType | An instance of time that occurs every day. | xsd:time | |
+IdentifierType | A character string to identify and uniquely distinguish one instance of an object in an Identification Scheme from all other objects in the same scheme, together with relevant supplementary information. | | schemeID, schemeName, schemeAgencyID, schemeAgencyName, schemeVersionID, schemeDataURI, schemeURI |
+IndicatorType | A list of two mutually exclusive Boolean Values that express the only possible states of a property. | | format|
+MeasureType | A numeric Value determined by measuring an object using a specified unit of measure. | unitCode | unitCodeListVersionID |
+NumericType | Numeric information that is assigned or is determined by calculation, counting, or sequencing. It does not require a unit of quantity or unit of measure. | | format|
+
+
+
+
+
