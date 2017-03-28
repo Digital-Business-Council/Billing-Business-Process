@@ -43,7 +43,57 @@ The diagramming notation used has the following key:
 
 ![optional_Logo](/images/optional.PNG )
 
+Examples of the use of these Elements are also provided. 
+
+In addition, a tabular version of the mapping between the eInvoicing Semantic Model and UBL is provided in Annex B of the eInvoicing Semantic Model (Digital Business Council, 2016c) and also in the tables available at: 
+
+http://resources.digitalbusinesscouncil.com.au/dbc/documents/core-invoice/summary/core-invoice-01.html 
 
 
+## 8.3 Core Invoice XML Schema 
+
+The Core Invoice Schema is used for defining the following eInvoicing Document types: 
+  
+  • Invoice; 
+  
+  • Recipient Created Tax Invoice (RCTI), and; 
+
+  • Credit Note. 
+
+The specific Document type is identified by the Value of the InvoiceTypeCode Element. 
+
+The remainder of this section walks through the various structures in the Core Invoice Schema. 
+
+The Response Document type is described in Section 8.4. 
 
 
+### 8.3.1 Invoice Document Type 
+
+The Invoice Element is the top level (often referred to as the root element) of the Invoice. The overall structure is describes in Figure 4. 
+
+![invoicedocumenttype_Logo](/images/invoice-document-type.PNG)
+
+
+### 8.3.2 Document Reference Type 
+
+A Document Reference is a structure used to define a Reference to another Document. 
+
+![documentreference_Logo](/images/document-reference-type.PNG)
+
+The structure supports both Documents embedded or included with the Invoice and those referred to at an external URI. 
+
+
+### 8.3.3 Supplier Party Type 
+
+Both Buyer and Supplier share the same Party structures. 
+
+Within the Core Invoice Schema the Supplier (who claims the payment and is responsible for resolving billing issues and arranging settlement) is identified using the UBL Element AccountingSupplierParty. 
+
+![supplierpartystructure_Logo](/images/supplier-party-structure.PNG)
+
+![supplierpartyexample_Logo](/images/supplier-part-eg.PNG)
+
+
+### 8.3.4 Buyer Party Type 
+
+AccountingCustomerParty is the UBL Element used for identifying the Buyer (the Party making settlement relating to a purchase and resolving billing issues). 
