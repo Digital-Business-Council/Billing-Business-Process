@@ -65,3 +65,28 @@ The target namespaces for the eInvoicing Schematron Rule validation artefacts ar
    • Adjustment Invoicing: 
   
   http://resources.digitalbusinesscouncil.com.au/dbc/einvoicing/process/invoicing05/schematron/current 
+  
+
+## 11.3 Two Phase Validation 
+
+The two sets of artefacts described in Sections 11.1 and 11.2 may be used in a two-phase validation process as shown in Figure 26. 
+
+![two-phase-validation-approach](images/two-phase-validation-approach.PNG)  
+
+
+## 11.4 Validating Coded Values 
+
+To aid interoperability and avoid ambiguity it is sometimes useful to use Coded sets of possible Values for Information Elements. 
+Examples are Currencies, Countries, etc. 
+
+In some cases standardised Code sets are Mandatory and must be used. The following table identifies the Code sets for implementing the eInvoicing Documents. 
+
+To validate the use of specific Code sets against Values in UBL Elements the following approach is supported (but not mandated): 
+
+   1. A Genericode standard for Code list representation is used to specify sets of enumerated Values, be they Codes or identifiers or any other set of Values. 
+
+   2. A Context/Value Association (CVA) file (OASIS UBL TC, 2013) specifies the relationship of information items in Document contexts to both external enumerations of Values allowed for each item and to arbitrary evaluations processed for each item. 
+
+The Distribution Package contains Genericode and associated CVA files for validating the Code lists specified in Table 7. 
+
+*Table 7: Mandatory Code Lists*
