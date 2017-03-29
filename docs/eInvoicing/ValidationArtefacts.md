@@ -90,3 +90,11 @@ To validate the use of specific Code sets against Values in UBL Elements the fol
 The Distribution Package contains Genericode and associated CVA files for validating the Code lists specified in Table 7. 
 
 *Table 7: Mandatory Code Lists*
+
+| | | | | |
+| --- |------- | --- |------- |----- |
+**Information Element** |**UBL Element**|**Definition**| **Applicable Code List**| **Mandatory Code Values**|
+Document Type Code | cbc:InvoiceTypeCode | A Code signifying the Type of the Document. | UNECE TRED 1001 (customised) | Document Type Codes |
+
+
+
