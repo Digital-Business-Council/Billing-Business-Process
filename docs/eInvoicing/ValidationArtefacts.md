@@ -94,7 +94,7 @@ The Distribution Package contains Genericode and associated CVA files for valida
 | | | | | |
 | --- |------- | --- |------- |----- |
 **Information Element** |**UBL Element**|**Definition**| **Applicable Code List**| **Mandatory Code Values**|
-Document Type Code | cbc:InvoiceTypeCode | A Code signifying the Type of the Document. | UNECE TRED 1001 (customised) | Document Type Codes |
+Document Type Code | cbc:InvoiceTypeCode | A Code signifying the Type of the Document. | UNECE TRED 1001 (customised) | [Document Type Codes](http://digitalbusinesscouncil.com.au/dbc/einvoicing/code/documenttype/gc/current) |
 
 
 
