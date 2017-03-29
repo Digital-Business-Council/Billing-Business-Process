@@ -89,6 +89,53 @@ The terms listed in Table 2 are used as defined in the context of this Implement
 | Trading Name | The term previously used by the Australian Business Register (ABR) for Business Name. | *Taken from the Australian Securities and Investment Commission definitions (Australian Securities and Investment Commission, 2016).*|
 
 
+## 7.1 Parties and Roles 
+
+In the Invoice process there are two primary business Parties, the Buyer and the Supplier. 
+
+For the Buyer Party the role Contracting with a Supplier to purchase goods or services is referred to as the Buyer. The role responsible for making settlement (and the recipient of the Invoice) is known as Accounts Payable. The Payer is the role that makes the Payment. 
+
+The Supplier Party has the role of Seller (the commercial role providing the goods to the Buyer), Accounts Receivable (the role who raises the Invoice and is responsible for resolving billing issues and arranging settlement) and Payee (the role that receives the Payment). 
+
+There may be additional third Parties providing services that are identified appear on the Invoice but these are considered as Extensions to the Core. 
+
+The table below summarises these roles: 
+
+*Table 1: Party Roles*
+
+| | | |
+| --| ---| ----|
+| **Actor** | **Role** | **Description** |
+Buyer Party | Buyer | The role Contracting with the Supplier to purchase goods or services. |
+Buyer Party | Accounts Payable | The role making settlement relating to a purchase and resolving billing issues. |
+Buyer Party | Payer | The role making the Payment. |
+Supplier Party | Seller | The role legally responsible for providing the goods to the Buyer. |
+Supplier Party | Accounts Receivable | The role claiming the Payment and responsible for resolving billing issues and arranging settlement. |
+Supplier Party | Payee | The role receiving the Payment. | 
+Party | Deliver To | The Party to which the Items are delivered. |
+
+## 7.2 Prices 
+
+There are several Information Elements related to the pricing of Items on an Invoice. The table below summarises these relationships: 
+
+*Table 2: Price Relationships*
+
+| | |
+| --| ----|
+| **Information Element** | **Description**|
+Allowance | A reduction in the Amount payable. |
+Amount Payable | The Total Amount to be paid. |
+Charge | An increase in the Amount Payable. |
+Gross Price | The unit price before Allowances and Charges. |
+Invoice Line Extension Amount | The Net Price multiplied by the Invoice Quantity. |
+Invoiced Quantity | The quantity of Items being Invoiced. |
+Net Amount | The Amount is ‘net’ without GST, i.e. inclusive of Allowances and Charges as well as other relevant Taxes. |
+Net Price | The unit price after Allowances and Charges. |
+Price Base Quantity | The number of Item units to which a price applies. |
+Price Discount | The total of all Allowances subtracted from the Gross Price to calculate the Net Price. |
+Total Amount | The sum of all Amounts. |
+
+
 
 
 
