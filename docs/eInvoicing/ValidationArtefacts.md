@@ -54,8 +54,11 @@ The Schematron rules are provided as informative tools to encourage consistent v
 
 The target namespaces for the eInvoicing Schematron Rule validation artefacts are: 
     
-    • Invoicing: http://resources.digitalbusinesscouncil.com.au/dbc/einvoicing/process/invoicing01/schematron/current 
+   • Invoicing: 
+   http://resources.digitalbusinesscouncil.com.au/dbc/einvoicing/process/invoicing01/schematron/current 
     
-    • Recipient Created Tax Invoicing: http://resources.digitalbusinesscouncil.com.au/dbc/einvoicing/process/invoicing03/schematron/current 
+   • Recipient Created Tax Invoicing:
+   http://resources.digitalbusinesscouncil.com.au/dbc/einvoicing/process/invoicing03/schematron/current 
     
-    • Adjustment Invoicing: http://resources.digitalbusinesscouncil.com.au/dbc/einvoicing/process/invoicing05/schematron/current 
+   • Adjustment Invoicing: 
+   http://resources.digitalbusinesscouncil.com.au/dbc/einvoicing/process/invoicing05/schematron/current 
