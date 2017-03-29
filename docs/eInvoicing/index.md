@@ -1,4 +1,4 @@
-# eInvoicing Implementation Guide 
+# The eInvoicing Implementation Guide 
 
 # 1 Audience
 The intended audiences are:
