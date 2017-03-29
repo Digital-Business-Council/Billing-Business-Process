@@ -3,7 +3,9 @@
 ### Disclaimer 
 This document is a publication of the Digital Business Council (Council): 
 
-Whilst every effort has been made to ensure that the material contained in the document and related attachments are correct, the Council and any other party involved in the creation of the document hereby state that the document is provided without warranty, either expressed or implied, of accuracy or fitness for purpose; and Hereby disclaim any liability, direct or indirect, for damages or loss relating to the use of the document. The document may be modified, subject to developments in technology, changes to the standards, or new legal requirements without notice. Any product and company name mentioned herein may be trademarks and/or registered trademarks of its respective company. 
+Whilst every effort has been made to ensure that the material contained in the document and related attachments are correct, the Council and any other party involved in the creation of the document hereby state that the document is provided without warranty, either expressed or implied, of accuracy or fitness for purpose; and 
+
+Hereby disclaim any liability, direct or indirect, for damages or loss relating to the use of the document. The document may be modified, subject to developments in technology, changes to the standards, or new legal requirements without notice. Any product and company name mentioned herein may be trademarks and/or registered trademarks of its respective company. 
 
 ### Copyright
 The copyright for all drafts and publications belongs to the Council.
