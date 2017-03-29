@@ -99,6 +99,19 @@ Invoice Currency Code | cbc:DocumentCurrencyCode | A Code signifying the default
 Amount Currency Code | …/cbc:Amount@currencyID | A Code signifying the Currency for an Amount. | ISO 4217 | [Currency Codes](http://docs.oasis-open.org/ubl/os-UBL-2.1/cl/gc/default/CurrencyCode-2.1.gc) |
 Country Code | .../cac:Address/cac:Country/cbc:IdentificationCode | A Code signifying a Country. | ISO 3166-1. | [Country Codes](http://docs.oasis-open.org/ubl/os-UBL-2.1/cl/gc/default/CountryIdentificationCode-2.1.gc) |
 
+*Table 8: Optional Code Lists*
+
+| | | | | |
+| --- |------- | --- |------- |----- |
+**Information Element** |**UBL Element**|**Definition**| **Applicable Code List**| **Optional Code Values**|
+Allowance Reason Code | …/cac:AllowanceCharge/cbc:AllowanceChargeReasonCode | A mutually agreed Code signifying the reason for this Allowance. | Mutually agreed by trading partners. | [Allowance Charge Reason Codes](http://docs.oasis-open.org/ubl/os-UBL-2.1/cl/gc/default/AllowanceChargeReasonCode-2.1.gc) |
+Charge Reason Code | .../cac:AllowanceCharge/cbc:AllowanceChargeReasonCode | A mutually agreed Code signifying the reason for this Charge. | Mutually agreed by trading partners. | [Allowance Charge Reason Codes](http://docs.oasis-open.org/ubl/os-UBL-2.1/cl/gc/default/AllowanceChargeReasonCode-2.1.gc) |
+Item Classification Code | cac:InvoiceLine/cac:Item/cac:CommodityClassification/cbc:ItemClassificationCode | A Code signifying the trade classification of the commodity. | Mutually agreed by trading partners. | [Item Classification Codes](http://docs.oasis-open.org/ubl/os-UBL-2.1/cl/gc/special-purpose/ItemClassificationCode-2.1.gc) |
+GST Category Tax Code | .../cac:TaxScheme/cbc:TaxTypeCode | A Code signifying the Tax level applicable within a Taxation scheme. | Dependent on the specific Tax Scheme. | |
+Response Code | …/cac:Response/cbc:ResponseCode | A code signifying the type of Response. | Mutually agreed by trading partners. | |
+Status Reason Code | …/cac:Status/cbc:StatusReasonCode | A Code that describes the issue and nature of the status. | Council defined Values (to be defined). | [Status Reason Codes](http://docs.oasis-open.org/ubl/os-UBL-2.1/cl/gc/special-purpose/StatusCode-2.1.gc)|
+
+
 
 
 
