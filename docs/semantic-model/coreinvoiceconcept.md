@@ -33,7 +33,7 @@ These Core Information Elements are those that business applications must be abl
 
 In addition, most eInvoices will require additional Extension Information Elements to satisfy their specific business requirements (see Section 5.2). Figure 1 describes the relationship of these principles. 
 
-![corepluseextension]()
+![corepluseextension](images/coreandextensions.PNG)
 
 The set of Information Elements that are contained in the Core eInvoicing Semantic Model can be seen as determined by regulation (such as taxation and evidentiary legislation) or by common business practice. 
 
