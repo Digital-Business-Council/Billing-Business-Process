@@ -3,7 +3,7 @@
 # 1 Audience
 The intended audiences are:
  
-|![BusinessAnalyst-Logo](images/Businessanalyst.PNG)  |   ![ApplicationDeveloper-Logo](images/Applicationdeveloper.PNG)|
+|![BusinessAnalyst-Logo](images/Businessanalyst.png)  |   ![ApplicationDeveloper-Logo](images/Applicationdeveloper.png)|
 | ---| ---|
 |BUSINESS ANALYSTS |APPLICATION DEVELOPERS|
 |Business Analysts: | Application Developers: |
@@ -12,16 +12,16 @@ The intended audiences are:
 
 Audience Reading Guide | Section | BUSINESS ANALYSTS| APPLICATION DEVELOPERS
 ---|---|---|---
-Introduction | 2| ![orange_Logo](images/orange.PNG)  | ![yellow_logo](images/yellow.PNG)  
-Scope| 3|![orange_Logo](images/orange.PNG) |![orange_Logo](images/orange.PNG)
-Conformance | 4 | ![orange_Logo](images/orange.PNG)  | ![yellow_logo](images/yellow.PNG)  
-The Core Invoice Concept | 5 | ![orange_Logo](images/orange.PNG) | ![yellow_logo](images/yellow.PNG)  
-Terms and Definitions (Normative) | 6 | ![orange_Logo](images/orange.PNG) | ![orange_Logo](images/orange.PNG) 
-Controlled Vocabulary (Normative)  | 7 | ![orange_Logo](images/orange.PNG) | ![orange_Logo](images/orange.PNG) 
-Business Processes | 8 | ![orange_Logo](images/orange.PNG) | ![yellow_logo](images/yellow.PNG)
-eInvoicing Semantic Model (Normative) | 9 | ![orange_Logo](images/orange.PNG)  | ![orange_Logo](images/orange.PNG) 
+Introduction | 2| ![orange_Logo](images/orange.png)  | ![yellow_logo](images/yellow.png)  
+Scope| 3|![orange_Logo](images/orange.png) |![orange_Logo](images/orange.png)
+Conformance | 4 | ![orange_Logo](images/orange.png)  | ![yellow_logo](images/yellow.png)  
+The Core Invoice Concept | 5 | ![orange_Logo](images/orange.png) | ![yellow_logo](images/yellow.png)  
+Terms and Definitions (Normative) | 6 | ![orange_Logo](images/orange.png) | ![orange_Logo](images/orange.png) 
+Controlled Vocabulary (Normative)  | 7 | ![orange_Logo](images/orange.png) | ![orange_Logo](images/orange.png) 
+Business Processes | 8 | ![orange_Logo](images/orange.png) | ![yellow_logo](images/yellow.png)
+eInvoicing Semantic Model (Normative) | 9 | ![orange_Logo](images/orange.png)  | ![orange_Logo](images/orange.png) 
 
 
-Primary Audience | ![orange_Logo](images/orange.PNG) 
+Primary Audience | ![orange_Logo](images/orange.png) 
 ---|---
-**Secondary Audience** |  ![yellow_logo](images/yellow.PNG) 
+**Secondary Audience** |  ![yellow_logo](images/yellow.png) 
