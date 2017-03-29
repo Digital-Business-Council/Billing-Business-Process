@@ -24,4 +24,6 @@ Payment Means Instruction Identifier | cac:PaymentMeans/cbc:InstructionID | An I
 Tax Category Identifier | cac:TaxCategory/cbc:ID | An Identifier for a Tax Category. | Issued by accounting software providers (Simpler BAS programme may provide these) |
 Tax Scheme Identifier | cac:TaxScheme/cbc:ID | An Identifier for this Taxation scheme. | Issued by Australian Taxation Office. |
 
+## 9.1 Identifying a Tax Branch 
 
+Under section 54-50 of the GST Act, a branch of a Party can be registered with the ATO (Australian Government, 1999). The branch receives a 3-digit representing this registration. All Tax Invoices issued by the branch must include the Taxation Branch Identifier in addition to the Australian Business Number for all of the Branch’s Tax Invoices, even when Invoicing the parent Party. 
