@@ -111,8 +111,20 @@ GST Category Tax Code | .../cac:TaxScheme/cbc:TaxTypeCode | A Code signifying th
 Response Code | …/cac:Response/cbc:ResponseCode | A code signifying the type of Response. | Mutually agreed by trading partners. | |
 Status Reason Code | …/cac:Status/cbc:StatusReasonCode | A Code that describes the issue and nature of the status. | Council defined Values (to be defined). | [Status Reason Codes](http://docs.oasis-open.org/ubl/os-UBL-2.1/cl/gc/special-purpose/StatusCode-2.1.gc)|
 
+### 11.4.1 References to Applicable Code Lists 
 
+   • UNECE TRED 1001, Document Name code 
+   
+   • http://www.unece.org/fileadmin/DAM/trade/untdid/d15b/tred/tred1001.htm 
+   
+   • ISO 3166-1, Codes for the representation of Names of countries and their subdivisions — Part 1: Country Codes (alpha-2 representation) https://www.iso.org/obp/ui/#search 
+   
+   • ISO 4217, Codes for the representation of Currencies (alpha-3 representation) http://www.currency-iso.org/en/home/tables/table-a1.html 
+   
+   • UNECE TRED 4461, Payment Means Code http://www.unece.org/trade/untdid/d04a/tred/tred4461.htm 
+   
+   • UNECE TRED 4343, Response type, coded 
 
-
+   • http://www.unece.org/fileadmin/DAM/trade/edifact/code/4343cl.htm 
 
 
