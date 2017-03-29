@@ -41,3 +41,6 @@ The XML Document Elements known as CustomizationID and ProfileID are the means o
 Implementers may use the Values in these UBL Elements to validate that the correct Document is being sent (or has been delivered) to the correct Endpoint. 
 
 An example of how these would appear in an UBL Document is given in Figure 25 below. 
+
+![customizationid](images/customization-id.PNG)
+
