@@ -1,0 +1,19 @@
+site_name: The eInvoicing Implementation Guide 
+repo_url: https://github.com/Digital-Business-Council/eInvoicing
+pages:
+    - 'Disclaimer': 'disclaimer.md'
+    - 'Audience': 'index.md'
+    - 'Introduction': 'introduction.md'
+    - 'Conformance': 'conformance.md '
+    - 'Distribution Pacakage': 'distributionpackage.md'
+    - 'Terms and Definitions': 'termsanddefinitions.md'
+    - 'Controlled Vocabulary': 'controlledvocabulary.md'
+    - 'Business Processes': 'businessprocesses.md'
+    - 'eInvoicing Profile': 'eInvoicingProfiles.md'
+    - 'Use of Identifiers': 'useofidentifiers.md'
+    - 'Identfying Services for the Interoperability Framework': 'Services-fo- the-Interoperability-Framework.md'
+    - 'Validation Artefacts': 'ValidationArtefacts.md'
+    - 'Support Material': 'support-artefacts.md'
+    - 'Extensions to the Core Invoice - Use Cases': 'extensiontocoreservice.md'
+ theme: mkdocs
+
