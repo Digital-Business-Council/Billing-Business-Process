@@ -95,6 +95,11 @@ The Distribution Package contains Genericode and associated CVA files for valida
 | --- |------- | --- |------- |----- |
 **Information Element** |**UBL Element**|**Definition**| **Applicable Code List**| **Mandatory Code Values**|
 Document Type Code | cbc:InvoiceTypeCode | A Code signifying the Type of the Document. | UNECE TRED 1001 (customised) | [Document Type Codes](http://digitalbusinesscouncil.com.au/dbc/einvoicing/code/documenttype/gc/current) |
+Invoice Currency Code | cbc:DocumentCurrencyCode | A Code signifying the default Currency for this Document. | ISO 4217 | [Currency Codes](http://docs.oasis-open.org/ubl/os-UBL-2.1/cl/gc/default/CurrencyCode-2.1.gc) |
+Amount Currency Code | …/cbc:Amount@currencyID | A Code signifying the Currency for an Amount. | ISO 4217 | [Currency Codes](http://docs.oasis-open.org/ubl/os-UBL-2.1/cl/gc/default/CurrencyCode-2.1.gc) |
+Country Code | .../cac:Address/cac:Country/cbc:IdentificationCode | A Code signifying a Country. | ISO 3166-1. | [Country Codes](http://docs.oasis-open.org/ubl/os-UBL-2.1/cl/gc/default/CountryIdentificationCode-2.1.gc) |
+
+
 
 
 
