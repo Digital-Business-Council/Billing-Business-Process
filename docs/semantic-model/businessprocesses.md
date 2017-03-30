@@ -94,13 +94,11 @@ The table below identifies the eInvoicing Semantic Model Core business requireme
 
 
 *Table5: Core Business Requirements for Invoice Matching*
-
 ![table](images/Table5.png)
 
 
 *Table 6: Core Business Requirements for Invoice Payment* 
-
-
+![table](images/Table6.PNG)
 
 
 
