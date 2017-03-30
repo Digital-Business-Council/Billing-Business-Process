@@ -84,7 +84,6 @@ Other requirements such as international (cross border) Invoicing or Invoice rou
 The table below identifies the eInvoicing Semantic Model Core business requirements and the Mandatory and Optional rules that support them. Note that some Extension requirements are also shown to provide examples. 
 
 *Table3: Core Business Requirements and Rules for Tax Invoices*
-
 ![Table](images/Table3.png)
 
 
