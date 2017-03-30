@@ -85,3 +85,95 @@ The table below identifies the eInvoicing Semantic Model Core business requireme
 
 *Table3: Core Business Requirements and Rules for Tax Invoices*
 
+**Requirement:** All Tax Invoices shall contain the minimum information stated in section 29-70 of the GST Act (Australian Government, 1999) and explained in Goods and Services Tax Ruling GSTR 2013/1 (Australian Government, 2013). 
+
+| | |
+| ---| ----|
+**Rule**| **Mandatory** |
+| 1. An Invoice of more than $82.50 (including GST) to a GST-registered Buyer MUST be a Tax Invoice. | X |
+
+
+**Requirement:** A Tax Invoice shall identify that the Document is intended to be a Tax Invoice or a Recipient Created Tax Invoice. 
+
+| | |
+| ---| ----|
+**Rule**| **Mandatory** |
+|2. An Invoice MUST contain a Document Type Code. | X |
+
+
+**Requirement:** An adjustment note or a recipient created adjustment note shall use the terms to identify the document as described in GST Ruling GSTR 2013/2 paragraph 31 (Australian Government, 2013) 
+
+| | |
+| ---| ----|
+**Rule**| **Mandatory** |
+| 3. An Invoice MUST contain a Document Type Code indicating it is an adjustment document. | X |
+
+**Requirement:** A Tax Invoice shall identify the Supplier. 
+
+| | |
+| ---| ----|
+**Rule**| **Mandatory** |
+|4. An Invoice MUST contain the Supplier’s Business Name or the ABN of the Supplier. | X |
+
+
+**Requirement:** A Tax Invoice for sales of $1,000 or more shall contain a Buyer’s GST Identifier. 
+
+| | |
+| ---| ----|
+**Rule**| **Mandatory** |
+| 5. An Invoice with a Total Amount greater than $1000 MUST have either the Buyer's Business Name or the ABN of the Buyer. | X |
+
+
+**Requirement:** Tax Invoices issued by GST branches of Suppliers shall contain have the ABN plus the GST branch number on the Tax invoice (Australian Government, 1999). 
+
+| | |
+| ---| ----|
+**Rule**| **Optional** |
+| 6. An Invoice MAY contain the ABN plus a GST branch number for Suppliers with GST branches registered with the ATO. | X |
+
+
+
+**Requirement:** A Tax Invoice shall identify the date the Invoice was issued. 
+
+| | |
+| ---| ----|
+**Rule**| **Mandatory** |
+|7. An Invoice MUST contain an Invoice Issue Date. | X |
+
+
+**Requirement:** A Tax Invoice shall contain a brief description of the items sold.
+
+| | |
+| ---| ----|
+**Rule**| **Mandatory** |
+| 8. An Invoice Line MUST have a Description. | X |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
