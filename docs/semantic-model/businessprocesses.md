@@ -85,6 +85,8 @@ The table below identifies the eInvoicing Semantic Model Core business requireme
 
 *Table3: Core Business Requirements and Rules for Tax Invoices*
 
+![Table](images/Table3.png)
+
  - **Requirement:** All Tax Invoices shall contain the minimum information stated in section 29-70 of the GST Act (Australian Government, 1999) and explained in Goods and Services Tax Ruling GSTR 2013/1 (Australian Government, 2013). 
 
 | | |
