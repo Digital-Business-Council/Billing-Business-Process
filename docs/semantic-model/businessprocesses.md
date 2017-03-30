@@ -85,7 +85,7 @@ The table below identifies the eInvoicing Semantic Model Core business requireme
 
 *Table3: Core Business Requirements and Rules for Tax Invoices*
 
-**Requirement:** All Tax Invoices shall contain the minimum information stated in section 29-70 of the GST Act (Australian Government, 1999) and explained in Goods and Services Tax Ruling GSTR 2013/1 (Australian Government, 2013). 
+ - **Requirement:** All Tax Invoices shall contain the minimum information stated in section 29-70 of the GST Act (Australian Government, 1999) and explained in Goods and Services Tax Ruling GSTR 2013/1 (Australian Government, 2013). 
 
 | | |
 | ---| ----|
@@ -93,7 +93,7 @@ The table below identifies the eInvoicing Semantic Model Core business requireme
 | 1. An Invoice of more than $82.50 (including GST) to a GST-registered Buyer MUST be a Tax Invoice. | X |
 
 
-**Requirement:** A Tax Invoice shall identify that the Document is intended to be a Tax Invoice or a Recipient Created Tax Invoice. 
+ - **Requirement:** A Tax Invoice shall identify that the Document is intended to be a Tax Invoice or a Recipient Created Tax Invoice. 
 
 | | |
 | ---| ----|
@@ -101,14 +101,14 @@ The table below identifies the eInvoicing Semantic Model Core business requireme
 |2. An Invoice MUST contain a Document Type Code. | X |
 
 
-**Requirement:** An adjustment note or a recipient created adjustment note shall use the terms to identify the document as described in GST Ruling GSTR 2013/2 paragraph 31 (Australian Government, 2013) 
+ - **Requirement:** An adjustment note or a recipient created adjustment note shall use the terms to identify the document as described in GST Ruling GSTR 2013/2 paragraph 31 (Australian Government, 2013) 
 
 | | |
 | ---| ----|
 **Rule**| **Mandatory** |
 | 3. An Invoice MUST contain a Document Type Code indicating it is an adjustment document. | X |
 
-**Requirement:** A Tax Invoice shall identify the Supplier. 
+ - **Requirement:** A Tax Invoice shall identify the Supplier. 
 
 | | |
 | ---| ----|
@@ -116,7 +116,7 @@ The table below identifies the eInvoicing Semantic Model Core business requireme
 |4. An Invoice MUST contain the Supplier’s Business Name or the ABN of the Supplier. | X |
 
 
-**Requirement:** A Tax Invoice for sales of $1,000 or more shall contain a Buyer’s GST Identifier. 
+ - **Requirement:** A Tax Invoice for sales of $1,000 or more shall contain a Buyer’s GST Identifier. 
 
 | | |
 | ---| ----|
@@ -124,7 +124,7 @@ The table below identifies the eInvoicing Semantic Model Core business requireme
 | 5. An Invoice with a Total Amount greater than $1000 MUST have either the Buyer's Business Name or the ABN of the Buyer. | X |
 
 
-**Requirement:** Tax Invoices issued by GST branches of Suppliers shall contain have the ABN plus the GST branch number on the Tax invoice (Australian Government, 1999). 
+ - **Requirement:** Tax Invoices issued by GST branches of Suppliers shall contain have the ABN plus the GST branch number on the Tax invoice (Australian Government, 1999). 
 
 | | |
 | ---| ----|
@@ -133,7 +133,7 @@ The table below identifies the eInvoicing Semantic Model Core business requireme
 
 
 
-**Requirement:** A Tax Invoice shall identify the date the Invoice was issued. 
+ - **Requirement:** A Tax Invoice shall identify the date the Invoice was issued. 
 
 | | |
 | ---| ----|
@@ -141,7 +141,7 @@ The table below identifies the eInvoicing Semantic Model Core business requireme
 |7. An Invoice MUST contain an Invoice Issue Date. | X |
 
 
-**Requirement:** A Tax Invoice shall contain a brief description of the items sold.
+ - **Requirement:** A Tax Invoice shall contain a brief description of the items sold.
 
 | | |
 | ---| ----|
