@@ -88,6 +88,7 @@ The table below identifies the eInvoicing Semantic Model Core business requireme
 ![Table](images/Table3.png)
 
  
+![Table](images/Table4.png)
 
 
 
