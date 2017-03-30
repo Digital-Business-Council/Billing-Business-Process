@@ -100,7 +100,14 @@ The table below identifies the eInvoicing Semantic Model Core business requireme
 ![table](images/Table6.PNG)
 
 
+## 8.5 Other Procurement Processes
 
+The Procure to Pay processes of Buyers and Suppliers are inextricably linked. Figure 6 shows how 
+Invoicing is one step in this broader process. 
+
+![figure](images/figure6.PNG)
+
+It is also recognised that Procure to Pay also forms only one part of the overall set of supply chain processes  that  includes  the  financial  supply  chain  (dealing  with  banking/Payment)  and  the logistical supply chain (dealing with receipt and delivery of goods). Information flows into and out of these processes and so the eInvoice Semantic Model needs to complement these processes.
 
 
 
