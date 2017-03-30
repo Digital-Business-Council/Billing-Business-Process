@@ -55,3 +55,33 @@ A replacement Invoice, with different details, may be sent to replace an existin
 
 With an eInvoicing process it is not uncommon for the recipient (e.g. Buyer) to respond to the eInvoice by sending an acknowledgement in the form of a Response document. Figure 5 describes the flow of a common eInvoicing process with an acknowledgement. 
 
+![figure](images/figure5.PNG)
+
+Responses may also be sent to acknowledge Recipient Created Tax Invoices and adjustment Invoices. 
+
+## 8.4 Business Requirements 
+
+An Invoice needs to support a number of related business functions. The eInvoicing Semantic Model supports: 
+   
+- Tax reporting; 
+
+    - Conforming to the Goods and Services Tax Act (1999) (Australian Government, 1999). 
+  
+- Verification; 
+
+    - Allowing identification of the commercial transaction covered by the Invoice. 
+
+- Matching; and 
+
+    - Matching against known accounts payable information, such as purchase order numbers. 
+ 
+- Payment; 
+   
+   - Specifying how payments are to be made.
+   
+Other requirements such as international (cross border) Invoicing or Invoice routing within organisations or networks may be considered as Extensions to these Core requirements. 
+
+The table below identifies the eInvoicing Semantic Model Core business requirements and the Mandatory and Optional rules that support them. Note that some Extension requirements are also shown to provide examples. 
+
+*Table3: Core Business Requirements and Rules for Tax Invoices*
+
