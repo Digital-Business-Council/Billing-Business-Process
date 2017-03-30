@@ -63,3 +63,9 @@ At the highest level an Invoice comprises of several substructures. These have b
    - Such as identifiers, price and descriptions or the Items invoiced.
 
 In a presentational format these can be demonstrated by the simplified example shown in Figure 8 below.
+
+![figure](images/figure8.PNG)
+
+As noted above, detailed descriptions of the Information Elements are provided in tabular form in Annex B and as diagrams throughout the remainder of this section.
+
+Figure 9 (below) illustrates the overall structure of the Invoice and its sub-structures as a high level view. By starting at the box on the left hand side, labelled ‘Invoice’, it is possible to identify the substructures contained in the Core of an Invoice.
