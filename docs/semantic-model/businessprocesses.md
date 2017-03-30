@@ -87,6 +87,8 @@ The table below identifies the eInvoicing Semantic Model Core business requireme
 
 ![Table](images/Table3.png)
 
+
+*Table 4: Core Business Requirements for Invoice Verification*
  
 ![Table](images/Table4.png)
 
