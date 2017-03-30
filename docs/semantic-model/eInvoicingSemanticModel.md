@@ -69,3 +69,48 @@ In a presentational format these can be demonstrated by the simplified example s
 As noted above, detailed descriptions of the Information Elements are provided in tabular form in Annex B and as diagrams throughout the remainder of this section.
 
 Figure 9 (below) illustrates the overall structure of the Invoice and its sub-structures as a high level view. By starting at the box on the left hand side, labelled ‘Invoice’, it is possible to identify the substructures contained in the Core of an Invoice.
+
+![figure](images/figure9.PNG)
+
+As a guide it can be noted from this diagram that only the Accounts Receivable (Supplier), Accounts Payable (Buyer), Total Amount and Invoice Lines are Mandatory for the Core Invoice. In fact, the complete set of mandatory Information Elements within the Core eInvoice Semantic model are:
+
+Invoice. Identifier
+Invoice. Issue Date
+Invoice. Type Code
+Accounts Receivable (Accounting. Supplier Party)
+Accounts Payable (Accounting. Buyer Party)
+Total Amount. Payable Amount
+Invoice Line. Identifier
+Invoice Line. Line Extension Amount
+Invoice Line. Item
+
+All other Information Elements within the eInvoice Semantic model are optional.
+
+The remainder of this section breaks down each of the Core Invoice sub-structures into their basic Information Elements together with any associations to other sub-structures.
+
+
+### 9.2.1 Invoice Structure
+
+The Invoice structure is the top level (often referred to as the header) of the Invoice. The diagram below describes the Invoice level Information Elements and any associations not covered by subsequent diagrams.
+
+![figure](images/figure10.PNG)
+
+### 9.2.2 Document Reference Structure
+
+A Document Reference is a structure used to define a Reference to another Document.
+
+![figure](images/figure11.PNG)
+
+The structure supports both Documents embedded or included with the Invoice and those referred to at an external Location.
+
+### 9.2.3 Supplier Structure
+
+In the eInvoicing Semantic Model the Supplier is performing the role of Accounts Receivable who claims the Payment and is responsible for resolving billing issues and arranging settlement.
+
+![figure](images/figure12.PNG)
+
+### 9.2.4 Buyer Structure
+
+Accounts Payable is the role performed by a Buyer Party when making settlement relating to a purchase and resolving billing issues.
+
+![figure](images/figure13.PNG)
