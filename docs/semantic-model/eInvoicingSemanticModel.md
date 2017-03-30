@@ -114,3 +114,61 @@ In the eInvoicing Semantic Model the Supplier is performing the role of Accounts
 Accounts Payable is the role performed by a Buyer Party when making settlement relating to a purchase and resolving billing issues.
 
 ![figure](images/figure13.PNG)
+
+### 9.2.5 Party Structure
+
+A Party is an individual, a group or an organisation, business, company, authority, agency or any trading entity having a role in a Business Process. Bother Buyer and Supplier share the same Party structures.
+
+![figure](images/figure14.PNG)
+
+### 9.2.6 Payment Means Structure
+
+The Payment Means is the structure used to describe how Payments are to be made.
+
+![figure](images/figure15.PNG)
+
+### 9.2.7 Allowance and Charges Structure
+
+Both Allowances (e.g. discounts) and Charges (e.g. penalties) are described by a common structure with an indicator to say whether this is a Charge or an Allowance.
+
+![figure](images/figure16.PNG)
+
+### 9.2.8 Monetary Total Structure
+
+The overall Amount to be paid is described using a monetary total structure.
+
+![figure](images/figure17.PNG)
+
+### 9.2.9 Tax Total Structure
+
+The overall Taxes involved are described using the Tax Total structure.
+
+![figure](images/figure18.PNG)
+
+Multiple Taxes (for example, additional GST Categories) and their subtotals are supported.
+
+### 9.2.10 Invoice Line Structure
+
+Charges for individual Items or transactions are often described as ‘lines’ on an Invoice. The Invoice Line structure describes the attributes of an individual invoiced Item.
+
+![figure](images/figure19.PNG)
+
+### 9.2.11 Item Structure
+
+The Item structure describes an Item of trade. It includes a generic Name and Description applicable to all examples of the Item together with various methods of uniquely identifying the Item.
+
+![figure](images/figure20.PNG)
+
+Items can be identified and described by various (optional) Item Identification schemes and Properties, and classified using various (optional) Item Classification schemes.
+
+## 9.3 Credit Note Model
+
+The Credit Note model has the same structure as the Invoice model with the Document Type Code used to indicate its function.
+
+## 9.4 Response Model
+
+If the Business Process requires a response to acknowledge the receipt of an eInvoice then a Response Document with the following structure is returned to the sending Party by the recipient. Recipients will typically be the Buyer (for Invoices and Credit Notes) or the Supplier (for Recipient Created Tax Invoices).
+
+![figure](images/figure21.PNG)
+
+
