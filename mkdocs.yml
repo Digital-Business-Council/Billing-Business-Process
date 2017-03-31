@@ -19,5 +19,19 @@ pages:
         - 'ANNEX A - Examples of Extensions': 'annexA.md'
         - 'ANNEX B - Common Business Scenarios': 'annexB.md'
         - 'References': 'references.md'
+     - The eInvoicing Semantic Model: 
+        - 'Disclaimer': 'disclaimer.md'
+        - 'Audience': 'index.md'
+        - 'Introduction': 'introduction.md'
+        - 'Scope': 'scope.md'
+        - 'Conformance': 'conformance.md '
+        - 'The Core Invoice Concept': 'coreinvoiceconcept.md'
+        - 'Terms and Definitions (Normative)': 'termsanddefinitions.md'
+        - 'Controlled Vocabulary (Normative)': 'controlledvocabulary.md'
+        - 'Business Processes': 'businessprocesses.md'
+        - 'The eInvoicing Semantic Model (Normative)': 'eInvoicingSemanticModel.md'
+        - 'ANNEX A - Common Business Scenarios': 'AnnexA.md'
+        - 'ANNEX B - eInvoicing Semantic Model in a Tabular Format': 'AnnexB.md'
+        - 'References': 'references.md'
  theme: mkdocs
 
