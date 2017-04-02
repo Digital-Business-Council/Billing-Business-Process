@@ -34,4 +34,3 @@ pages:
         - 'ANNEX B - eInvoicing Semantic Model in a Tabular Format': 'AnnexB.md'
         - 'References': 'references.md'
  theme: mkdocs
-
