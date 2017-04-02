@@ -19,7 +19,7 @@ pages:
          - 'ANNEX A - Examples of Extensions': 'annexA.md'
          - 'ANNEX B - Common Business Scenarios': 'annexB.md'
          - 'References': 'references.md'
-     - 'The eInvoicing Semantic Model' : 
+     - The eInvoicing Semantic Model : 
          - 'Disclaimer': 'disclaimer.md'
          - 'Audience': 'index.md'
          - 'Introduction': 'introduction.md'
