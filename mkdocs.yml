@@ -5,7 +5,7 @@ pages:
          - 'Disclaimer': 'eInvoicing/disclaimer.md'
          - 'Audience': 'eInvoicing/index.md'
          - 'Introduction': 'eInvoicing/introduction.md'
-         - 'Conformance': 'eInvoicing/conformance.md '
+         - 'Conformance': 'eInvoicing/conformance.md'
          - 'Distribution Pacakage': 'eInvoicing/distributionpackage.md'
          - 'Terms and Definitions': 'eInvoicing/termsanddefinitions.md'
          - 'Controlled Vocabulary': 'eInvoicing/controlledvocabulary.md'
