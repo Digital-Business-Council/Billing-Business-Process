@@ -24,7 +24,7 @@ pages:
          - 'Audience': 'semantic-model/index.md'
          - 'Introduction': 'semantic-model/introduction.md'
          - 'Scope': 'semantic-model/scope.md'
-         - 'Conformance': 'semantic-model/conformance.md '
+         - 'Conformance': 'semantic-model/conformance.md'
          - 'The Core Invoice Concept': 'semantic-model/coreinvoiceconcept.md'
          - 'Terms and Definitions (Normative)': 'semantic-model/termsanddefinitions.md'
          - 'Controlled Vocabulary (Normative)': 'semantic-model/controlledvocabulary.md'
