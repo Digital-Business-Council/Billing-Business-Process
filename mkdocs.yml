@@ -13,7 +13,7 @@ pages:
          - 'eInvoicing Profile': 'eInvoicing/eInvoicingProfiles.md'
          - 'Use of Identifiers': 'eInvoicing/useofidentifiers.md'
          - 'Identfying Services for the Interoperability Framework': 'eInvoicing/Services-for-the-Interoperability-Framework.md'
-         - 'Validation Artefacts': 'eInvoicing/ValidationArtefacts.md'
+         - 'Validation Artefacts': 'eInvoicing/validationArtefacts.md'
          - 'Support Material': 'eInvoicing/support-artefacts.md'
          - 'Extensions to the Core Invoice_Use Cases': 'eInvoicing/extensiontocoreservice.md'
          - 'ANNEX A - Examples of Extensions': 'eInvoicing/annexA.md'
