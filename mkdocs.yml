@@ -1,8 +1,20 @@
-
 site_name: Billing-Business-Process
 repo_url: https://github.com/Digital-Business-Council/Billing-Business-Process
 pages:
     - Disclaimer: 'index.md'
+    - The eInvoicing Semantic Model: 
+         - 'Audience': 'semantic-model/index.md'
+         - 'Introduction': 'semantic-model/introduction.md'
+         - 'Scope': 'semantic-model/scope.md'
+         - 'Conformance': 'semantic-model/conformance.md'
+         - 'The Core Invoice Concept': 'semantic-model/coreinvoiceconcept.md'
+         - 'Terms and Definitions (Normative)': 'semantic-model/termsanddefinitions.md'
+         - 'Controlled Vocabulary (Normative)': 'semantic-model/controlledvocabulary.md'
+         - 'Business Processes': 'semantic-model/businessprocesses.md'
+         - 'The eInvoicing Semantic Model (Normative)': 'semantic-model/eInvoicingSemanticModel.md'
+         - 'ANNEX A  Common Business Scenarios': 'semantic-model/AnnexA.md'
+         - 'ANNEX B  eInvoicing Semantic Model in a Tabular Format': 'semantic-model/AnnexB.md'
+         - 'References': 'semantic-model/references.md'
     - The eInvoicing Implementation Guide: 
          - 'Audience': 'eInvoicing/audience.md'
          - 'Introduction': 'eInvoicing/introduction.md'
@@ -20,18 +32,4 @@ pages:
          - 'ANNEX A - Examples of Extensions': 'eInvoicing/annexA.md'
          - 'ANNEX B - Common Business Scenarios': 'eInvoicing/annexB.md'
          - 'References': 'eInvoicing/references.md'
-    - The eInvoicing Semantic Model: 
-         - 'Disclaimer': 'semantic-model/disclaimer.md'
-         - 'Audience': 'semantic-model/index.md'
-         - 'Introduction': 'semantic-model/introduction.md'
-         - 'Scope': 'semantic-model/scope.md'
-         - 'Conformance': 'semantic-model/conformance.md'
-         - 'The Core Invoice Concept': 'semantic-model/coreinvoiceconcept.md'
-         - 'Terms and Definitions (Normative)': 'semantic-model/termsanddefinitions.md'
-         - 'Controlled Vocabulary (Normative)': 'semantic-model/controlledvocabulary.md'
-         - 'Business Processes': 'semantic-model/businessprocesses.md'
-         - 'The eInvoicing Semantic Model (Normative)': 'semantic-model/eInvoicingSemanticModel.md'
-         - 'ANNEX A  Common Business Scenarios': 'semantic-model/AnnexA.md'
-         - 'ANNEX B  eInvoicing Semantic Model in a Tabular Format': 'semantic-model/AnnexB.md'
-         - 'References': 'semantic-model/references.md'
 theme: mkdocs
