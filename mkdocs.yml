@@ -1,5 +1,5 @@
 site_name: eInvoiceAU
 repo_url: https://github.com/Digital-Business-Council/Billing-Business-Process
 pages:
-    - Disclaimer: 'eInvoicing/disclaimer.md'
+    - Disclaimer: 'disclaimer.md'
 theme: mkdocs
