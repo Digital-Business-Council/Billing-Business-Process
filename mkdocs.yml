@@ -2,37 +2,4 @@ site_name: eInvoiceAU
 repo_url: https://github.com/Digital-Business-Council/Billing-Business-Process
 pages:
     - 'Disclaimer': 'eInvoicing/disclaimer.md'
-    - The eInvoicing Implementation Guide: 
-         - 'Audience': 'eInvoicing/index.md'
-         - 'Introduction': 'eInvoicing/introduction.md'
-         - 'Conformance': 'eInvoicing/conformance.md'
-         - 'Distribution Pacakage': 'eInvoicing/distributionpackage.md'
-         - 'Terms and Definitions': 'eInvoicing/termsanddefinitions.md'
-         - 'Controlled Vocabulary': 'eInvoicing/controlledvocabulary.md'
-         - 'Business Processes': 'eInvoicing/businessprocesses.md'
-         - 'eInvoicing Profile': 'eInvoicing/eInvoicingProfiles.md'
-         - 'Use of Identifiers': 'eInvoicing/useofidentifiers.md'
-         - 'Identfying Services for the Interoperability Framework': 'eInvoicing/Services-for-the-Interoperability-Framework.md'
-         - 'Validation Artefacts': 'eInvoicing/validationArtefacts.md'
-         - 'Support Material': 'eInvoicing/support-artefacts.md'
-         - 'Extensions to the Core Invoice_Use Cases': 'eInvoicing/extensiontocoreservice.md'
-         - 'ANNEX A - Examples of Extensions': 'eInvoicing/annexA.md'
-         - 'ANNEX B - Common Business Scenarios': 'eInvoicing/annexB.md'
-         - 'References': 'eInvoicing/references.md'
-    - The eInvoicing Semantic Model: 
-         - 'Disclaimer': 'semantic-model/disclaimer.md'
-         - 'Audience': 'semantic-model/index.md'
-         - 'Introduction': 'semantic-model/introduction.md'
-         - 'Scope': 'semantic-model/scope.md'
-         - 'Conformance': 'semantic-model/conformance.md'
-         - 'The Core Invoice Concept': 'semantic-model/coreinvoiceconcept.md'
-         - 'Terms and Definitions (Normative)': 'semantic-model/termsanddefinitions.md'
-         - 'Controlled Vocabulary (Normative)': 'semantic-model/controlledvocabulary.md'
-         - 'Business Processes': 'semantic-model/businessprocesses.md'
-         - 'The eInvoicing Semantic Model (Normative)': 'semantic-model/eInvoicingSemanticModel.md'
-         - 'ANNEX A  Common Business Scenarios': 'semantic-model/AnnexA.md'
-         - 'ANNEX B  eInvoicing Semantic Model in a Tabular Format': 'semantic-model/AnnexB.md'
-         - 'References': 'semantic-model/references.md'
 theme: mkdocs
-
-
