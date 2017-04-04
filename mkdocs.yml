@@ -2,7 +2,7 @@ site_name: Billing Business Process
 repo_url: https://github.com/Digital-Business-Council/Billing-Business-Process
 pages:
     - 'Disclaimer': 'eInvoicing/disclaimer.md'
-    - 'The eInvoicing Implementation Guide': 
+    - The eInvoicing Implementation Guide: 
          - 'Audience': 'eInvoicing/index.md'
          - 'Introduction': 'eInvoicing/introduction.md'
          - 'Conformance': 'eInvoicing/conformance.md'
@@ -19,7 +19,7 @@ pages:
          - 'ANNEX A - Examples of Extensions': 'eInvoicing/annexA.md'
          - 'ANNEX B - Common Business Scenarios': 'eInvoicing/annexB.md'
          - 'References': 'eInvoicing/references.md'
-    - 'The eInvoicing Semantic Model': 
+    - The eInvoicing Semantic Model: 
          - 'Disclaimer': 'semantic-model/disclaimer.md'
          - 'Audience': 'semantic-model/index.md'
          - 'Introduction': 'semantic-model/introduction.md'
