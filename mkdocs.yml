@@ -15,7 +15,7 @@ pages:
          - 'Identfying Services for the Interoperability Framework': 'eInvoicing/Services-for-the-Interoperability-Framework.md'
          - 'Validation Artefacts': 'eInvoicing/ValidationArtefacts.md'
          - 'Support Material': 'eInvoicing/support-artefacts.md'
-         - 'Extensions to the Core Invoice - Use Cases': 'eInvoicing/extensiontocoreservice.md'
+         - 'Extensions to the Core Invoice_Use Cases': 'eInvoicing/extensiontocoreservice.md'
          - 'ANNEX A - Examples of Extensions': 'eInvoicing/annexA.md'
          - 'ANNEX B - Common Business Scenarios': 'eInvoicing/annexB.md'
          - 'References': 'eInvoicing/references.md'
@@ -30,8 +30,8 @@ pages:
          - 'Controlled Vocabulary (Normative)': 'semantic-model/controlledvocabulary.md'
          - 'Business Processes': 'semantic-model/businessprocesses.md'
          - 'The eInvoicing Semantic Model (Normative)': 'semantic-model/eInvoicingSemanticModel.md'
-         - 'ANNEX A - Common Business Scenarios': 'semantic-model/AnnexA.md'
-         - 'ANNEX B - eInvoicing Semantic Model in a Tabular Format': 'semantic-model/AnnexB.md'
+         - 'ANNEX A  Common Business Scenarios': 'semantic-model/AnnexA.md'
+         - 'ANNEX B  eInvoicing Semantic Model in a Tabular Format': 'semantic-model/AnnexB.md'
          - 'References': 'semantic-model/references.md'
 theme: mkdocs
 
