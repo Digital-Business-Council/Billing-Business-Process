@@ -1,7 +1,3 @@
 # 3 Conformance 
 
-Conformance to the eInvoicing Implementation Guide means conformance with the sections marked as ‘Normative’. 
-
-The Framework specifies that eInvoicing Documents exchanged between Access Points must conform to this eInvoicing Profile. Sending Access Points are required to send conformant Documents. 
-
-Conformance to the Profile for eInvoice Documents does not require conformance to Section 10 ‘Identifying Services for the Interoperability Framework’. 
+All eInvoices exchanged through the Council’s Interoperability Framework must conform to this eInvoicing Implementation Guide. Conformance to the eInvoicing Implementation Guide means conformance with the content, rules and definitions given in the sections marked as ‘Normative’ in this Specification.
