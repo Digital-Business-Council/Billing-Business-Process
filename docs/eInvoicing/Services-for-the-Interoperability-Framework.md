@@ -11,17 +11,17 @@ Within the Council’s Interoperability Framework a business may register its ca
 **Service Name** |**Exchange (transactions)**|**CustomizationID or Process ID (See 10.2)**| **ProfileID or DocTypeID (See 10.2)**| 
 Invoicing | Buyer can receive an eInvoice | Invoicing01-1 | Core-Invoice-1 | 
 Recipient Created Tax Invoicing | Supplier can receive an RCTI eInvoice | Invoicing02-1 |Core-Invoice-1 |
-Adjustment Invoicing | Buyer can receive an eInvoice | Invoicing03-1 | Core-Invoice-1 |
+Adjustment Invoicing | Invoicing03-1 | Core-Invoice-1 |
 | |Buyer can receive an Adjustment eInvoice | |Core-Invoice-1 | 
 Response | Supplier can receive a Response | Invoicing04-1 | Response-1 |
 
 To receive Documents using the Framework requires a business to register one Service only. Registering the capability to support other Services is entirely optional. 
 
-For example, if a Buyer is wishes to acknowledge receiving an eInvoice Document with a Response Document they can only do so if the Supplier is registered for the appropriate Service (in this case, ‘Invoicing04-1’ and ‘Response-1’). 
+For example, if a Buyer wishes to acknowledge receiving an eInvoice Document with a Response Document they can only do so if they and the Supplier are registered for the appropriate Service (in this case, ‘Invoicing04-1’ and ‘Response-1’). 
 
 ## 10.1 Document Identification 
 
-To identify a Document when used within the Framework some additional Elements are applicable. These are listed in Table 6. 
+To identify a Document used within the Framework some additional Elements are applicable. These are listed in Table 6. 
 
 *Table 6: Document Identification Elements*
 
