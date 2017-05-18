@@ -30,7 +30,7 @@ Primary Audience | ![orange_Logo](images/orange.PNG)
 **Secondary Audience** |  ![yellow_logo](images/yellow.PNG) 
 
 
-Business users (such as Accounts Payable or Accounts Receivable staff) do not need to use this specification to be able to participate in eInvoicing. Their business software providers may refer to the eInvoicing Semantic Model (Digital Business Council, 2016c) to ensure their application supports these requirements and may use this specification if they choose to implement the eInvoicing Profile for their applications, but it is also not a requirement for participation in the Council’s Interoperability Framework (Framework). 
+
 
 
 
