@@ -5,12 +5,6 @@ This section defines the Profiles of the Data Formats to be used for XML Documen
 Following from the eInvoicing Semantic Model (Digital Business Council, 2016c) the eInvoicing Profiles has been defined to include only the essential UBL Elements (the Core) that an eInvoicing Document needs to satisfy operational, financial and regulatory (e.g. GST) requirements. 
 
 Core UBL Elements are those that business applications or Service Interfaces must be able to recognise if they appear in a Document. Not all Core UBL Elements need appear in all eInvoice Documents, these are noted as Optional in the Profile. Core UBL Elements noted as Mandatory in the Profile and must appear in every eInvoice Document. 
-
-Using these Core UBL Elements for eInvoices means that businesses are able to: 
-
-  a. Interpret and understand the meaning of the common, essential information on an eInvoice; and 
-
-  b. Inform their software or Service providers to process these Core UBL Elements based on the eInvoicing Semantic Model (Digital Business Council, 2016c). 
   
 These Profiles are a conformant subset of the OASIS Universal Business Language (UBL) v2.1 (ISO/IEC 19845:2015) (OASIS UBL TC, 2013). XML Documents conforming to these Profiles also conform to the UBL standard. 
 
@@ -43,12 +37,9 @@ The diagramming notation used has the following key:
 
 ![optional_Logo](images/optional.PNG )
 
-Examples of the use of these Elements are also provided. 
+Further information in regards to  business requirements and the Mandatory and Optional rules that support them, is provided in the eInvoicing Semantic Model (Digital Business Council, 2016c) (page 27 – page 37) 
 
-In addition, a tabular version of the mapping between the eInvoicing Semantic Model and UBL is provided in Annex B of the eInvoicing Semantic Model (Digital Business Council, 2016c) and also in the tables available at: 
-
-http://resources.digitalbusinesscouncil.com.au/dbc/documents/core-invoice/summary/core-invoice-01.html 
-
+http://dbc/processes/einvoicing/implementation-1.0/models/AllDocuments.html
 
 ## 8.3 Core Invoice XML Schema 
 
@@ -84,8 +75,6 @@ The structure supports both Documents embedded or included with the Invoice and 
 
 
 ### 8.3.3 Supplier Party Type 
-
-Both Buyer and Supplier share the same Party structures. 
 
 Within the Core Invoice Schema the Supplier (who claims the payment and is responsible for resolving billing issues and arranging settlement) is identified using the UBL Element AccountingSupplierParty. 
 
@@ -160,7 +149,7 @@ Items can be identified and described by various (optional) Item Identification 
 
 ## 8.4 Response Document Schema 
 
-In an eInvoicing environment it is not uncommon for the recipient (either the Buyer or Supplier) to acknowledge the receipt of an eInvoice with a Response Document. This Response may also be used to specify the status of the transaction. 
+In an eInvoicing environment it is not uncommon for the recipient to acknowledge the receipt of an eInvoice with a Response Document. Recipients will typically be the Buyer (for Invoices and Credit Notes) or the Supplier (for Recipient Created Tax Invoices). This Response may also be used to specify the status of the transaction. 
 
 Using Responses is an opt-in system. Sending Response documents is at the discretion of the eInvoice recipient (typically the Buyer). Whether a Response Document is returned is based on the Invoice sender’s (typically the Supplier’s) registered capability to support that Service (see Section 10). 
 
@@ -184,31 +173,13 @@ AmountType | A number of monetary units specified using a given unit of Currency
 BinaryObjectType | A set of finite-length sequences of binary octets. | mimeCode | Format, encodingCode, characterSetCode, uri, filename |
 CodeType | A character string (letters, figures, or symbols) that for brevity and/or language independence may be used to represent or replace a definitive Value or text of an attribute, together with relevant supplementary information. | | listID, listAgencyID, listAgencyName, listName, listVersionID, name, languageID, listURI, listSchemeURI |
 DateType | One calendar day according the Gregorian calendar. | xsd:date | |
-TimeType | An instance of time that occurs every day. | xsd:time | |
 IdentifierType | A character string to identify and uniquely distinguish one instance of an object in an Identification Scheme from all other objects in the same scheme, together with relevant supplementary information. | | schemeID, schemeName, schemeAgencyID, schemeAgencyName, schemeVersionID, schemeDataURI, schemeURI |
 IndicatorType | A list of two mutually exclusive Boolean Values that express the only possible states of a property. | | format|
 MeasureType | A numeric Value determined by measuring an object using a specified unit of measure. | unitCode | unitCodeListVersionID |
+Name Type | A character string that constitutes the distinctive designation of a person, place, thing, or concept. | | languageID, languageLocaleID |
 NumericType | Numeric information that is assigned or is determined by calculation, counting, or sequencing. It does not require a unit of quantity or unit of measure. | | format|
 PercentType | Numeric information that is assigned or is determined by calculation, counting, or sequencing and is expressed as a percentage. It does not require a unit of quantity or unit of measure. | | format|
-RateType | A numeric expression of a rate that is assigned or is determined by calculation, counting, or sequencing. It does not require a unit of quantity or unit of measure. | | format|
 QuantityType | A counted number of non-monetary units, possibly including a fractional part. | | unitCode, unitCodeListID, unitCodeListAgencyID, unitCodeListAgencyName |
+RateType | A numeric expression of a rate that is assigned or is determined by calculation, counting, or sequencing. It does not require a unit of quantity or unit of measure. | | format|
 TextType | A character string (i.e. a finite set of characters), generally in the form of words of a language. | | languageID, languageLocaleID |
-NameType | A character string that constitutes the distinctive designation of a person, place, thing, or concept. | | languageID, languageLocaleID |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Time Type | An instance of time that occurs every day. | xsd:time | |
