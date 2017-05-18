@@ -8,9 +8,9 @@ The eInvoice Document Schemas are conformant subsets of the UBL Schema and shoul
 
 Only the eInvoicing Profile XML Schema are considered normative (the official form of validation). All eInvoicing XML Documents must be valid instances of these XML Schema. 
 
-All Information Elements noted as Mandatory in the eInvoicing Semantic Model (Digital Business Council, 2016c) must have Values provided in every eInvoice. The eInvoice XML Schema will validate the existence of (most) mandatory Core Information Elements (see 11.2). 
+All Information Elements noted as Mandatory in the eInvoicing Semantic Model (Digital Business Council, 2016c) (refer to Business Requirements, page 26) must have Values provided in every eInvoice. The eInvoice XML Schema will validate the existence of (most) mandatory Core Information Elements (see 11.2). 
 
-Optional Core Information Elements need not appear in an eInvoice but will be validated by the XML Schema if they do. 
+Optional Core Information Elements do not need to appear in an eInvoice but will be validated by the XML Schema if they do. 
 
 The eInvoice XML Schema will also check eInvoices for the existence of UBL Elements that are not defined in the Core eInvoice Semantic Model and fail if anything unexpected is found. 
 
@@ -44,13 +44,12 @@ http://docs.oasis-open.org/ubl/os-UBL-2.1/xsd/maindoc/UBL-ApplicationResponse-2.
 
 ## 11.2 Schematron Rules (Informative) 
 
-Only the semantics of the business rules as defined in the eInvoicing Semantic Model (Digital Business Council, 2016c) are normative. The technologies for how they are validated are not mandated by this specification. 
+Only the semantics of the business requirements as defined in the eInvoicing Semantic Model (Digital Business Council, 2016c) are normative. The technologies for how they are validated are not mandated by this specification. 
 
 A set of informative Schematron (Schematron, 2004) test rules have been provided that may be used to validate Core Business Rules that are not checked by the XML Schema. 
+ 
 
-Each is labelled with reference to the Business Rule identified in the eInvoicing Semantic Model (Digital Business Council, 2016c). 
-
-The Schematron rules are provided as informative tools to encourage consistent validation of eInvoicing XML Documents against the business rules defined in the eInvoicing Semantic Model (Digital Business Council, 2016c). However other technologies are available and may be used to validate these business rules. 
+The Schematron rules are provided as informative tools to encourage consistent validation of eInvoicing XML Documents against the business requirements defined in the eInvoicing Semantic Model (Digital Business Council, 2016c). However other technologies are available and may be used to validate these business rules. 
 
 The target namespaces for the eInvoicing Schematron Rule validation artefacts are: 
     
@@ -83,7 +82,7 @@ In some cases standardised Code sets are Mandatory and must be used. The followi
 
 To validate the use of specific Code sets against Values in UBL Elements the following approach is supported (but not mandated): 
 
-   1. A Genericode standard for Code list representation is used to specify sets of enumerated Values, be they Codes or identifiers or any other set of Values. 
+   1. A Genericode standard for Code list representation is used to specify sets of enumerated Values, be they Codes or identifiers or any other set of Values. ** Not sure if this is correct**
 
    2. A Context/Value Association (CVA) file (OASIS UBL TC, 2013) specifies the relationship of information items in Document contexts to both external enumerations of Values allowed for each item and to arbitrary evaluations processed for each item. 
 
