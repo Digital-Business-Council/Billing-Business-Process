@@ -6,7 +6,7 @@ To aid in the implementation of this specification several supporting resources 
 
 The directory located at; 
 
-http://resources.digitalbusinesscouncil.com.au/dbc/documents/core-invoice/xml/ 
+/dbc/processes/einvoicing/implementation-1.0/testsets/SampleInvoice-ConformantInvoice.xml
 
  - contains a set of sample UBL Documents that can be used to verify the conformance of eInvoicing Documents. 
 
@@ -22,13 +22,13 @@ http://ubl.xml.org/products
 
 The file located at; 
 
-http://resources.digitalbusinesscouncil.com.au/dbc/documents/core-invoice/summary/core-invoice-01.html 
+/dbc/processes/einvoicing/implementation-1.0/testsets/SampleInvoice-ConformantInvoice.xml
  
  - provides a HTML (web browser) interface to navigate the data structures in the Core Invoice and Response Documents. 
 
 The file located at; 
 
-http://resources.digitalbusinesscouncil.com.au/dbc/documents/core-invoice/mod/core-invoice-01.ods 
+/dbc/processes/einvoicing/implementation-1.0/testsets/SampleInvoice-ConformantInvoice.xml
 
  - also contains a tabular version of the mapping between the eInvoicing Semantic Model (Dig ital Business Council, 2016c) and the equivalent UBL Element. 
  
