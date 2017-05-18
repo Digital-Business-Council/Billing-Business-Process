@@ -1,9 +1,10 @@
 # 4 Distribution Package 
 
-The eInvoicing Implementation Guide and associated artefacts are published at: http://resources.digitalbusinesscouncil.com.au/dbc/processes/einvoicing/implementation-1.0 
+The eInvoicing Implementation Guide and associated artefacts are published at: 
+http://dbc/processes/einvoicing/implementation-1.0/implementation-1.0.zip
 
-This directory contains the following sub-directories: 
-    
+The compressed (ZIP)file contains the following sub-directories:
+
    • **codes** – containing the Genericode files for Code list Values (OASIS Code List Representation TC, 2007); 
    
    • **cva** - containing Context/Value Association files for defining data type qualifications (OASIS UBL TC, 2013); 
@@ -21,5 +22,3 @@ This directory contains the following sub-directories:
    • **xsd** - containing the normative, annotated XSD Schemas (W3C, 2012). Loading the XML Document Schemas into an XML aware application will engage the various component libraries required; and 
     
    • **xsdrt** - containing non-annotated XSD Schemas (W3C, 2012) that may be used for runtime validation. 
-
-The directory also contains a compressed (ZIP) file of a directory named implementation-1.0 containing the same sub-directories listed above. This may be used for localised implementations. 
