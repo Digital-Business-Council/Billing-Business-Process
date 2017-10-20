@@ -4,7 +4,7 @@
                      http://resources.digitalbusinesscouncil.com.au/dbc/einvoicing/doctype/core-invoice/xsd/current/dbc-ci-1.0/
   Release Date:      08 June 2016
   Module:            DBC-AU/xsdrt/maindoc/Response-1.0.xsd
-  Generated on:      2016-08-18 01:14z
+  Generated on:      2017-10-12 01:26z
   Copyright (c) DBC 2016. All Rights Reserved.
 -->
 <xsd:schema xmlns="urn:oasis:names:specification:ubl:schema:xsd:ApplicationResponse-2"

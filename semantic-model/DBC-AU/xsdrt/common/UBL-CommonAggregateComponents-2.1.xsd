@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  Library:           DBC Core Invoice 1.0 Dev
-                     http://resources.digitalbusinesscouncil.com.au/dbc/einvoicing/doctype/core-invoice/xsd/current/dbc-ci-1.0/
-  Release Date:      08 June 2016
+  Library:           DBC Core Invoice 1.0.1 Dev
+                     http://resources.digitalbusinesscouncil.com.au/dbc/einvoicing/doctype/core-invoice/xsd/current/dbc-ci-1.0.1/
+  Release Date:      13 October 2017
   Module:            DBC-AU/xsdrt/common/UBL-CommonAggregateComponents-2.1.xsd
-  Generated on:      2016-08-18 01:14z
-  Copyright (c) DBC 2016. All Rights Reserved.
+  Generated on:      2017-10-20 03:23z
+  Copyright (c) DBC 2017. All Rights Reserved.
 -->
 <xsd:schema xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
             xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
@@ -34,6 +34,7 @@
    <xsd:element name="CustomerParty" type="CustomerPartyType"/>
    <xsd:element name="Delivery" type="DeliveryType"/>
    <xsd:element name="DeliveryAddress" type="AddressType"/>
+   <xsd:element name="DeliveryLocation" type="LocationType"/>
    <xsd:element name="DeliveryParty" type="PartyType"/>
    <xsd:element name="DespatchDocumentReference" type="DocumentReferenceType"/>
    <xsd:element name="DocumentReference" type="DocumentReferenceType"/>
@@ -49,6 +50,7 @@
    <xsd:element name="LegalMonetaryTotal" type="MonetaryTotalType"/>
    <xsd:element name="LineReference" type="LineReferenceType"/>
    <xsd:element name="LineResponse" type="LineResponseType"/>
+   <xsd:element name="Location" type="LocationType"/>
    <xsd:element name="MonetaryTotal" type="MonetaryTotalType"/>
    <xsd:element name="OrderReference" type="OrderReferenceType"/>
    <xsd:element name="Party" type="PartyType"/>
@@ -133,6 +135,8 @@
    </xsd:complexType>
    <xsd:complexType name="CustomerPartyType">
       <xsd:sequence>
+         <xsd:element ref="cbc:CustomerAssignedAccountID" minOccurs="0" maxOccurs="1"/>
+         <xsd:element ref="cbc:SupplierAssignedAccountID" minOccurs="0" maxOccurs="1"/>
          <xsd:element ref="cac:Party" minOccurs="0" maxOccurs="1"/>
          <xsd:element ref="cac:BuyerContact" minOccurs="0" maxOccurs="1"/>
       </xsd:sequence>
@@ -141,6 +145,7 @@
       <xsd:sequence>
          <xsd:element ref="cbc:ActualDeliveryDate" minOccurs="0" maxOccurs="1"/>
          <xsd:element ref="cac:DeliveryAddress" minOccurs="0" maxOccurs="1"/>
+         <xsd:element ref="cac:DeliveryLocation" minOccurs="0" maxOccurs="1"/>
          <xsd:element ref="cac:DeliveryParty" minOccurs="0" maxOccurs="1"/>
       </xsd:sequence>
    </xsd:complexType>
@@ -222,6 +227,11 @@
          <xsd:element ref="cac:Response" minOccurs="1" maxOccurs="unbounded"/>
       </xsd:sequence>
    </xsd:complexType>
+   <xsd:complexType name="LocationType">
+      <xsd:sequence>
+         <xsd:element ref="cbc:ID" minOccurs="0" maxOccurs="1"/>
+      </xsd:sequence>
+   </xsd:complexType>
    <xsd:complexType name="MonetaryTotalType">
       <xsd:sequence>
          <xsd:element ref="cbc:LineExtensionAmount" minOccurs="0" maxOccurs="1"/>
@@ -276,6 +286,7 @@
          <xsd:element ref="cbc:ID" minOccurs="0" maxOccurs="1"/>
          <xsd:element ref="cbc:PaymentMeansCode" minOccurs="1" maxOccurs="1"/>
          <xsd:element ref="cbc:InstructionID" minOccurs="0" maxOccurs="1"/>
+         <xsd:element ref="cbc:InstructionNote" minOccurs="0" maxOccurs="unbounded"/>
          <xsd:element ref="cac:PayerFinancialAccount" minOccurs="0" maxOccurs="1"/>
          <xsd:element ref="cac:PayeeFinancialAccount" minOccurs="0" maxOccurs="1"/>
       </xsd:sequence>

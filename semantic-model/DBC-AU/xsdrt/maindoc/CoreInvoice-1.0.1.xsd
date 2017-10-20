@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  Library:           DBC Core Invoice 1.0 Dev
-                     http://resources.digitalbusinesscouncil.com.au/dbc/einvoicing/doctype/core-invoice/xsd/current/dbc-ci-1.0/
-  Release Date:      08 June 2016
-  Module:            DBC-AU/xsdrt/maindoc/CoreInvoice-1.0.xsd
-  Generated on:      2017-10-12 01:26z
-  Copyright (c) DBC 2016. All Rights Reserved.
+  Library:           DBC Core Invoice 1.0.1 Dev
+                     http://resources.digitalbusinesscouncil.com.au/dbc/einvoicing/doctype/core-invoice/xsd/current/dbc-ci-1.0.1/
+  Release Date:      13 October 2017
+  Module:            DBC-AU/xsdrt/maindoc/CoreInvoice-1.0.1.xsd
+  Generated on:      2017-10-20 03:23z
+  Copyright (c) DBC 2017. All Rights Reserved.
 -->
 <xsd:schema xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
             xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
